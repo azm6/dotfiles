@@ -1,0 +1,12 @@
+rofi.modi: drun,run,window
+rofi.lines: 8
+rofi.theme:/home/gwaka/.config/rofi/themes/nord.rasi
+rofi.line-padding: auto
+rofi.matching: fuzzy
+rofi.bw: 0
+rofi.padding: 10
+rofi.separator-style: none
+rofi.hide-scrollbar: true
+rofi.line-margin: 10
+rofi.columns: 1
+rofi.font: Roboto Mono 12

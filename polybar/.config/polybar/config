@@ -1,0 +1,273 @@
+[colors]
+
+#background = #222831
+#background-alt = #30475e
+#
+#foreground = #ececec
+#foreground-alt = #687B96
+
+background = #073642
+background-alt = #30475e
+
+foreground = #eee8d5
+foreground-alt = #586e75
+
+
+bg1 = #f2a365
+bg2 = #f2a365
+bg3 = #f2a365
+bg4 = #f2a365
+bg5 = #f2a365
+bg6 = #f2a365
+
+primary = #c1c1c1
+secondary = #e60053
+alert = #bd2c40
+
+
+;-----------------------------------------------------------------------------------------
+[bar/mybar]
+;monitor = ${env:monitor:hdmi-1}
+width = 100%
+height = 28
+
+radius = 0.0
+fixed-center = true
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 2
+
+;border-size = 5
+;border-color = #00ff00
+
+padding-left = 2
+padding-right = 2
+
+module-margin-left = 1
+module-margin-right = 1
+
+
+;font-0 = roboto mono:style=regular:size=9;2
+font-0 = mononoki:style=Bold:size=9;2
+font-1 = font awesome 5 free,font awesome 5 free solid:style=solid:size=9;2
+
+modules-left = mpd 
+modules-center = bspwm
+modules-right =  pulseaudio xbacklight cpu wlan battery date
+
+tray-position = right
+tray-padding = 2
+
+wm-restack = bspwm
+override-redirect = true
+
+;scroll-up = bspc desktop -f prev.local
+;scroll-down = bspc desktop -f next.local
+
+cursor-click = default
+;-----------------------------------------------------------------------------------------
+[settings]
+screenchange-reload = true
+;compositing-background = xor
+;compositing-background = screen
+;compositing-foreground = source
+;compositing-border = over
+pseudo-transparency = true
+compositing-background = source
+compositing-foreground = over
+compositing-overline = over
+compositing-underline = over
+compositing-border = over
+;-----------------------------------------------------------------------------------------
+[global/wm]
+margin-top = 2
+margin-bottom = 2
+
+
+;-----------------------------------------------------------------------------------------
+;--------------------------------------MODULES--------------------------------------------
+;-----------------------------------------------------------------------------------------
+
+[module/date]
+type = internal/date
+interval = 5
+
+time =%I:%M %p
+time-alt =%a,%d %b
+
+;format-background = ${colors.bg1}
+;format-padding = 1
+label =%date%%time%
+;-----------------------------------------------------------------------------------------
+
+[module/battery]
+type = internal/battery
+
+full-at = 99
+
+battery = BAT1
+adapter = ACDC
+
+poll-interval = 100
+
+time-format = %H:%M
+
+format-charging = <label-charging>
+;format-underline-charging= ${colors.bg2}
+label-charging =  %percentage%%
+
+format-discharging = <ramp-capacity> <label-discharging>
+;format-underline-discharging = ${colors.bg2}
+label-discharging = %percentage%%
+
+label-full =  %percentage%%
+;format-underline-full= ${colors.bg2}
+
+ramp-capacity-0 =
+ramp-capacity-1 =
+ramp-capacity-2 =
+ramp-capacity-3 =
+ramp-capacity-4 =
+
+bar-capacity-width = 10
+;-----------------------------------------------------------------------------------------
+
+[module/wlan]
+type = internal/network
+interface = wlp2s0
+interval = 4
+
+format-connected =<label-connected>
+;format-connected-background = ${colors.bg3}
+
+label-connected = %downspeed%
+
+format-disconnected = <label-disconnected>
+;format-disconnected-underline = ${self.format-connected-underline}
+label-disconnected = 
+;-----------------------------------------------------------------------------------------
+
+[module/cpu]
+type = internal/cpu
+interval = 2
+;format-underline = ${colors.bg4}
+label= %percentage%%
+;-----------------------------------------------------------------------------------------
+
+[module/xbacklight]
+type = internal/xbacklight
+format = <label>
+;format-underline = ${colors.bg5}
+label = %percentage%%
+;-----------------------------------------------------------------------------------------
+
+[module/pulseaudio]
+type = internal/pulseaudio
+
+;run 'pacmd list-sinks' name field
+sink = alsa_output.pci-0000_00_1b.0.analog-stereo
+
+use-ui-max = true
+
+interval = 5
+
+format-volume = <ramp-volume> <label-volume>
+;format-volume-underline = ${colors.bg6}
+label-volume = %percentage%%
+
+format-muted = <label-muted>
+label-muted =  muted
+
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+
+;Right and Middle click (unreleased)
+click-right = pavucontrol &
+;-----------------------------------------------------------------------------------------
+
+
+
+[module/bspwm]
+type = internal/bspwm
+
+wrapping-scroll = false
+
+label-focused =
+label-focused-padding = 1
+
+label-occupied = 
+label-occupied-padding = 1
+
+label-urgent = 
+label-urgent-padding = 1
+
+label-empty = 
+label-empty-foreground = ${colors.foreground-alt}
+label-empty-padding = 1
+
+ws-icon-0 = i;
+ws-icon-1 = ii;
+ws-icon-2 = iii;
+ws-icon-3 = iv;
+ws-icon-4 = v;
+ws-icon-5 = viii;
+ws-icon-6 = ix;
+ws-icon-7 = x; 
+ws-icon-default = .
+;-----------------------------------------------------------------------------------------
+
+
+
+
+[module/mpd]
+type = internal/mpd
+
+host = 127.0.0.1
+port = 6601
+
+interval = 2
+
+format-playing = ${self.format-online}
+format-paused = ${self.format-online}
+format-paused-foreground= ${colors.foreground-alt}
+format-stopped = ${self.format-online}
+
+label-offline =mpd is offline
+format-offline = <label-offline>
+
+
+label-song = %title:0:40:..%
+
+;label-time = %elapsed% / %total%
+
+format-font = 2
+format-online = <toggle> <label-song> 
+
+icon-play =
+icon-pause =
+;-----------------------------------------------------------------------------------------
+
+
+
+
+
+
+;-----------------------------------------------------------------------------------------
+;------------------------------------------NOT IN USE-------------------------------------
+;-----------------------------------------------------------------------------------------
+
+[module/polypomo]
+type = custom/script
+
+exec = /home/gwaka/scripts/polypomo
+tail = true
+
+label = %output%
+click-left =   /home/gwaka/scripts/polypomo toggle
+click-right =  /home/gwaka/scripts/polypomo end
+click-middle = /home/gwaka/scripts/polypomo lock
+scroll-up =    /home/gwaka/scripts/polypomo time +60
+scroll-down =  /home/gwaka/scripts/polypomo time -60

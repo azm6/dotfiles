@@ -1,0 +1,344 @@
+sw_volume: 60
+audio_device_state:1:pulse audio
+audio_device_state:1:gwaka
+state: play
+current: 83
+time: 4.121000
+random: 1
+repeat: 1
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:musicForProgramming/1-datassette.mp3
+1:musicForProgramming/10-unity_gain_temple.mp3
+2:musicForProgramming/11-miles_tilmann.mp3
+3:musicForProgramming/12-forgotten_light.mp3
+4:musicForProgramming/13-matt_whitehead.mp3
+5:musicForProgramming/14-tahlhoff_garten_and_untitled.mp3
+6:musicForProgramming/15-dan_adeyemi.mp3
+7:musicForProgramming/16-silent_stelios.mp3
+8:musicForProgramming/17-graphplan.mp3
+9:musicForProgramming/18-konx_om_pax.mp3
+10:musicForProgramming/19-hivemind.mp3
+11:musicForProgramming/2-sunjammer.mp3
+12:musicForProgramming/3-datassette.mp3
+13:musicForProgramming/4-com_truise.mp3
+14:musicForProgramming/5-abe_mangger.mp3
+15:musicForProgramming/6-gods_of_the_new_age.mp3
+16:musicForProgramming/7-tahlhoff_garten_and_untitled.mp3
+17:musicForProgramming/8-connectedness_locus.mp3
+18:musicForProgramming/9-datassette.mp3
+19:musicForProgramming/Calm music.m4a
+20:musicForProgramming/Chillhop jazz beats & lofi.opus
+21:musicForProgramming/Classical Music for Reading.webm
+22:musicForProgramming/Epic Medieval Music.m4a
+23:musicForProgramming/Increase Brain Power, Focus Music.opus
+24:musicForProgramming/Mindfulness Meditation Music for Focus.opus
+25:musicForProgramming/Minimal Techno Mix 2020.webm
+26:musicForProgramming/Minimal Techno Tripping.webm
+27:musicForProgramming/Piano and Violin.m4a
+28:musicForProgramming/Programming _Coding_Music.webm
+29:musicForProgramming/Study Music - Calming ambient.webm
+30:musicForProgramming/.unwanted/music_for_programming_38-j_s_aurelius.mp3
+31:Classical Music Pieces/1 Vivaldi Concerto No. 1 In E Major For Solo Violin, RV 269 La Primavera - 1. Allegro.flac
+32:Classical Music Pieces/2 Chopin- Nocturne No.2 in E Flat, Op.9 No.2.flac
+33:Classical Music Pieces/3 Grieg- Peer Gynt Suite No.1, Op.46 - 1. Morning Mood (feat. Herbert von Karajan).flac
+34:Classical Music Pieces/4 R. Strauss- Also sprach Zarathustra, Op.30, TrV 176 - Prelude (Sonnenaufgang) (feat. Karl Böhm).flac
+35:Classical Music Pieces/5 Symphony No.5 In C Minor, Op.67 - Beethoven- Symphony No. 5 in C Minor, Op. 67 - 1. Allegro con brio (feat. Carlos Kleiber).flac
+36:Classical Music Pieces/6 Grieg- Piano Concerto in A minor, Op.16 - 1. Allegro molto moderato (feat. BBC Symphony Orchestra & Sir Colin Davis).flac
+37:Classical Music Pieces/7 Wagner Die Walküre, WWV 86B  Act 3 - Hojotoho! Hojotoho!...Ride Of The Valkyries.flac
+38:Classical Music Pieces/8 Tchaikovsky- Swan Lake, Op.20 - Mariinsky Version - Act 1 - Scene 2- Scène (Moderato) (feat. Valery Gergiev).flac
+39:Classical Music Pieces/9 Beethoven- Bagatelle in A Minor, WoO 59 --Für Elise-.flac
+40:Classical Music Pieces/10 Debussy- Suite bergamasque, L.75 - 3. Clair de lune.flac
+41:Classical Music Pieces/11 Beethoven- Symphony No.9 In D Minor, Op.125 - -Choral- - 4. Finale.flac
+42:Classical Music Pieces/12 Pachelbel- Canon and Gigue in D major - arr. Max Seiffert - 1. Canon (feat. Herbert von Karajan & Frank Maus).flac
+43:Classical Music Pieces/13 Barber- Adagio For Strings, Op.11 (feat. Kristjan Järvi).flac
+44:Classical Music Pieces/14 Beethoven- Piano Sonata No.14 In C Sharp Minor, Op.27 No.2 --Moonlight- - 1. Adagio sostenuto.flac
+45:Classical Music Pieces/15 Mascagni- Cavalleria rusticana - Intermezzo Sinfonico (feat. Alberto Erede).flac
+46:Classical Music Pieces/16 Puccini- Turandot - Act 3 - -Nessun dorma!- (feat. The John Alldis Choir, Wandsworth School Boys Choir, London Philharmonic Orchestra & Zubin Mehta).flac
+47:Classical Music Pieces/17 Elgar- Variations on an Original Theme, Op.36 -Enigma- - 9. Nimrod (Adagio) (feat. Zubin Mehta).flac
+48:Classical Music Pieces/18 Serenade In G, K.525 -Eine kleine Nachtmusik- - Mozart- Serenade in G Major, K. 525 -Eine kleine Nachtmusik- - 1. Allegro (feat. Karl Böhm).flac
+49:Classical Music Pieces/19 Einaudi- I giorni - I giorni (feat. Jacques Ammon & Deutsches Kammerorchester Berlin).flac
+50:Classical Music Pieces/20 J.S. Bach- Suite No.3 In D, BWV 1068 - 2. Air (feat. Berliner Philharmoniker & Herbert von Karajan).flac
+51:Classical Music Pieces/21 Tchaikovsky- Nutcracker Suite, Op.71a - 2b. Dance of the Sugar-Plum Fairy (feat. Sir Georg Solti).flac
+52:Classical Music Pieces/22 J.S. Bach- Brandenburg Concerto No.3 in G, BWV 1048 - 1. (Allegro).flac
+53:Classical Music Pieces/23 Liszt- Liebestraum No.3 in A flat, S.541 No.3.flac
+54:Classical Music Pieces/24 Schubert- Ave Maria, D. 839 (feat. Royal Philharmonic Orchestra & Andreas Delfs).flac
+55:Classical Music Pieces/25 Canteloube- Chants d'Auvergne - 2. Bailero (feat. English Chamber Orchestra & Jeffrey Tate).flac
+56:Classical Music Pieces/26 J. Strauss II- An der schönen blauen Donau, Op.314 (feat. Karl Böhm).flac
+57:Classical Music Pieces/27 Mozart- Symphony No.40 In G Minor, K.550 - 1. Molto allegro (feat. Sir Colin Davis).flac
+58:Classical Music Pieces/28 Verdi- Rigoletto - Act 3 - -La donna è mobile- (Edit) (feat. London Symphony Orchestra & Richard Bonynge).flac
+59:Classical Music Pieces/29 Offenbach- Les Contes d'Hoffmann - Act 2 - -Belle nuit, ô nuit d'amour.flac
+60:Classical Music Pieces/30 Fauré- Pavane, Op.50 (feat. Jean Fournet).flac
+61:Classical Music Pieces/31 Bizet- Carmen - Act 1 - -Mais nous ne voyons pas la Carmencita.flac
+62:Classical Music Pieces/32 Delibes- Lakmé - Act 1 - -Viens, Mallika, ... Dôme épais- (feat. Jane Berbié, Orchestre National de l'Opéra de Monte-Carlo & Richard Bonynge).flac
+63:Classical Music Pieces/33 Tchaikovsky- Ouverture solennelle -1812,- Op.49 (feat. University Of Minnesota Brass Band & Antal Doráti).flac
+64:Classical Music Pieces/34 Copland- Fanfare for the Common Man (feat. Zubin Mehta).flac
+65:Classical Music Pieces/35 Rachmaninov- Piano Concerto No.2 In C Minor, Op.18 - 2. Adagio sostenuto (Live) (feat. Orchestra of the Mariinsky Theatre & Valery Gergiev).flac
+66:Classical Music Pieces/36 J.S. Bach- Aria mit 30 Veränderungen, BWV 988 -Goldberg Variations- - Aria.flac
+67:Classical Music Pieces/37 Satie- 3 Gymnopédies - No.1.flac
+68:Classical Music Pieces/38 Toccata And Fugue In D Minor, BWV 565 - J.S. Bach- Toccata and Fugue in D Minor, BWV 565 - 1. Toccata.flac
+69:Classical Music Pieces/39 Grieg- Peer Gynt Suite No.1, Op.46 - 4. In The Hall Of The Mountain King (feat. Herbert von Karajan).flac
+70:Classical Music Pieces/40 Dvorák- Symphony No.9 in E Minor, Op.95, B.178 - -From The New World- - 2. Largo (feat. Riccardo Chailly).flac
+71:Classical Music Pieces/41 Rimsky-Korsakov- The Tale Of Tsar Saltan - 3. The Flight Of The Bumble-Bee (feat. Vladimir Ashkenazy).flac
+72:Classical Music Pieces/42 Williams- Main Theme From -Schindler's List- (feat. Bournemouth Symphony Orchestra & Kirill Karabits).flac
+73:Classical Music Pieces/43 Beethoven- Piano Concerto No.5 in E flat major Op.73 --Emperor- - 1. Allegro (Live In Bochum-2007) (feat. Staatskapelle Berlin).flac
+74:Classical Music Pieces/44 Gershwin- Rhapsody In Blue (feat. André Previn).flac
+75:Classical Music Pieces/45 Allegri- Miserere (feat. Harry Christophers).flac
+76:Classical Music Pieces/46 The Planets, Op.32 - Holst- The Planets, Op. 32 - 4. Jupiter, the Bringer of Jollity (feat. Sir Georg Solti).flac
+77:Classical Music Pieces/47 Handel- Messiah, HWV 56 - Pt. 2 - -Hallelujah- (feat. Academy of St. Martin in the Fields & Sir Neville Marriner).flac
+78:Classical Music Pieces/48 Orff- Carmina Burana - Fortuna Imperatrix Mundi - -O Fortuna- (feat. Royal Philharmonic Orchestra & Antal Doráti).flac
+79:Classical Music Pieces/49 Massenet- Thaïs - Acte Deux - Méditation religieuse (feat. The National Philharmonic Orchestra & Richard Bonynge).flac
+80:Classical Music Pieces/50 Saint-Saëns- Symphony No.3 in C Minor, Op.78, R.176 - -Organ Symphony- - 2b. Maestoso - Più allegro - Molto allegro (feat. Orchestre Symphonique de Montréal & Charles Dutoit).flac
+81:rock/The Passenger.mp3
+82:rock/Detroit Rock City (Edit).mp3
+83:rock/Rebel Yell (Remastered).mp3
+84:rock/All The Small Things.mp3
+85:rock/Runnin' Down A Dream.mp3
+86:rock/It's The End Of The World As We Know It (And I Feel Fine) (Original Version).mp3
+87:rock/Up Around The Bend (Album Version).mp3
+88:rock/All Right Now (Album Version).mp3
+89:rock/Pretty Fly (For A White Guy).mp3
+90:rock/Fly Away.mp3
+91:rock/Blurry (Album Version).mp3
+92:rock/Nothin' But A Good Time (Remastered 2006).mp3
+93:rock/Smooth Criminal.mp3
+94:rock/Free Fallin'.mp3
+95:rock/Rammstein - Du Hast (Single Version).mp3
+96:rock/System Of A Down - Chop Suey.mp3
+97:rock/The Rolling Stones - Anybody Seen My Baby.mp3
+98:rock/Dire Straits - Money For Nothing.mp3
+99:rock/Smokie - What Can I Do.mp3
+100:rock/Badfinger - Without You.mp3
+101:rock/Queen - The Show Must Go On.mp3
+102:rock/Rainbow - I Surrender.mp3
+103:rock/The Beatles - Oh Darling.mp3
+104:rock/Pink Floyd - Hey You.mp3
+105:rock/Roxette - Crash Boom Bang.mp3
+106:rock/Dire Straits - Calling Elvis.mp3
+107:rock/Metallica - The Unforgiven.mp3
+108:rock/Garbage - I Think I'm Paranoid.mp3
+109:rock/Pink Floyd - Money.mp3
+110:rock/Muse - Black Black Heart (David Usher Cover).mp3
+111:rock/Queen - We Are The Champions.mp3
+112:rock/HammerFall - Blood Bound.mp3
+113:rock/The Offspring - Why Don't You Get A Job.mp3
+114:rock/Nazareth - Love Nurts.mp3
+115:rock/Nirvana - Rape Me.mp3
+116:rock/Iggy Pop - In The Death Car.mp3
+117:rock/Uriah Heep - Lady In Black.mp3
+118:rock/David Bowie - The Man Who Sold The World.mp3
+119:rock/Roxette - It Must Have Been Love.mp3
+120:rock/Nazareth - Changin' Times.mp3
+121:rock/H.I.M. - Wicked Game.mp3
+122:rock/Status Quo - In The Army Now.mp3
+123:rock/Rammstein - Engel.mp3
+124:rock/The Mamas & The Papas - California Dreamin.mp3
+125:rock/Accept - Amamos La Vida.mp3
+126:rock/Nightwish - Deep Silent Complete.mp3
+127:rock/Rammstein - Sonne.mp3
+128:rock/Alice Cooper - Poison.mp3
+129:rock/Chuck Berry - You Never Can Tell.mp3
+130:rock/Kiss - I Was Made For Lovin' You.mp3
+131:rock/The Ventures - Vibrations.mp3
+132:rock/Muse - Supermassive Black Hole.mp3
+133:rock/Eric Clapton - I Shot The Sheriff.mp3
+134:rock/Survivor - Eye Of The Tiger.mp3
+135:rock/The Beatles - Back In The U.S.S.R..mp3
+136:rock/Chris Norman - I`ll Meet You At Midnight.mp3
+137:rock/The Beatles - Help.mp3
+138:rock/Billy Idol - Eyes Without A Face.mp3
+139:rock/Rod Stewart - If Only.mp3
+140:rock/Stratovarius - Paradise.mp3
+141:rock/H-Blockx - The Power.mp3
+142:rock/Ronnie James Dio - Don't Talk To Strangers.mp3
+143:rock/Bruce Springsteen - Streets Of Phildelphia.mp3
+144:rock/The Eagles - Love Will Keep Us Alive.mp3
+145:rock/Lenny Kravitz - Again.mp3
+146:rock/Deep Purple - Demon's Eye.mp3
+147:rock/Guns N' Roses - Don't Cry.mp3
+148:rock/U2 - One.mp3
+149:rock/Billy Joel - A Matter Of Trust.mp3
+150:rock/Phil Collins - Another Day In Paradise.mp3
+151:rock/Helloween - I Want Out.mp3
+152:rock/Jerry Lee Lewis feat. Ringo Starr & John Mayer & Jon Brion - Roll Over Beethoven.mp3
+153:rock/The Cranberries - When We Were Young.mp3
+154:rock/Yeah Yeah Yeahs - Heads Will Roll.mp3
+155:rock/Hyperchild - Wonderful Life (Black Cover).mp3
+156:rock/Ulytau - Toccata And Fugue.mp3
+157:rock/Roy Orbison - You Got It.mp3
+158:rock/Suzi Quatro - All Shook Up.mp3
+159:rock/At Vance - Money, Money, Money.mp3
+160:rock/The Cardigans - My Favorite Game.mp3
+161:rock/Duran Duran - Ordinary World.mp3
+162:rock/Europe - Rock The Night.mp3
+163:rock/Scorpions - When You Came Into My Life.mp3
+164:rock/Ufo - Belladonna.mp3
+165:rock/Garry Moore - Spanish Guitar.mp3
+166:rock/The Beatles - Let It Be.mp3
+167:rock/Sex Pistols - God Save The Queen.mp3
+168:rock/UB40 - Kingston Town.mp3
+169:rock/Gene Vincent - Be-Bop-A-Lula.mp3
+170:rock/Donna Summer - Hot Stuff.mp3
+171:rock/Van Morrison - Brown Eyed Girl.mp3
+172:rock/Ben E. King - Stand By Me.mp3
+173:rock/Europe - The Final Countdown.mp3
+174:rock/Foo Fighters - Everlong.mp3
+175:rock/Depeche Mode - Personal Jesus.mp3
+176:rock/U2 - With Or Without You.mp3
+177:rock/Sinead O'Connor - Nothing Compares 2 U.mp3
+178:rock/Soundgarden - Black Hole Sun.mp3
+179:rock/Bee Gees - Stayin' Alive.mp3
+180:rock/Bob Dylan - Knockin' On Heaven's Door.mp3
+181:rock/The Doors - Light My Fire.mp3
+182:rock/Tina Turner - What's Love Got To Do With It.mp3
+183:rock/Bee Gees - How Deep Is Your Love.mp3
+184:rock/Black Sabbath - Paranoid.mp3
+185:rock/Ray Charles - Hit The Road Jack.mp3
+186:rock/The Righteous Brothers - Unchained Melody.mp3
+187:rock/U2 - Sunday Bloody Sunday.mp3
+188:rock/Queen - We Will Rock You.mp3
+189:rock/Roy Orbison - Oh, Pretty Woman.mp3
+190:rock/The Beatles - Can't Buy Me Love.mp3
+191:rock/U2 - Summer Of Love.mp3
+192:rock/Rammstein - Mein Herz Brennt.mp3
+193:rock/The Rolling Stones - Brown Sugar.mp3
+194:rock/Rammstein - Mutter.mp3
+195:rock/Billy Idol - Sweet Sixteen.mp3
+196:rock/The Eagles - Somebody.mp3
+197:rock/Shocking Blue - Venus.mp3
+198:rock/Smokie - Needles & Pins.mp3
+199:rock/Cinderella - Nobody's Fool.mp3
+200:rock/George Thorogood - Bad To The Bone.mp3
+201:rock/Travis - Sing.mp3
+202:rock/Slade - Ooh La La In L.A.mp3
+203:rock/John Lennon - (Just Like) Starting Over.mp3
+204:rock/C&C Music Factory - Gonna Make You Sweat.mp3
+205:rock/Gary Hoey - California Dreamin'.mp3
+206:rock/Joe Bonamassa - Stop.mp3
+207:rock/Guano Apes - Lords Of The Boards.mp3
+208:rock/Accept - Princess Of The Dawn.mp3
+209:rock/Blackmore's Night - Wish You Were Here.mp3
+210:rock/Dire Straits - When It Comes To You.mp3
+211:rock/Geordie - House Of The Rising Sun.mp3
+212:rock/Korn - Freak On A Leash.mp3
+213:rock/INXS - Suicide Blonde.mp3
+214:rock/Lenny Kravitz - American Woman.mp3
+215:rock/Gary Moore - Still Got The Blues.mp3
+216:rock/R.E.M. - Everybody Hurts.mp3
+217:rock/The Offspring - Pretty Fly (For A White Guy).mp3
+218:rock/Andreas Johnson - Glorious.mp3
+219:rock/Dire Straits - Sultans Of Swing.mp3
+220:rock/The Arrows - I Love Rock'N'Roll.mp3
+221:rock/Uriah Heep - Free Me.mp3
+222:rock/No Doubt - Don't Speak.mp3
+223:rock/Ozzy Osbourne - Dreamer.mp3
+224:rock/The Rolling Stones - Angie.mp3
+225:rock/George Harrison - Cockamamie Business.mp3
+226:rock/Muse - Muscle Museum.mp3
+227:rock/Tokio Hotel - When It Rains It Pours.mp3
+228:rock/The Script - The Man Who Can't Be Moved.mp3
+229:rock/Kiss - Rock And Roll All Nite.mp3
+230:rock/Loreen - '71 Charger.mp3
+231:rock/Thunder - Wonder Days.mp3
+232:rock/Saliva - They Don't Care About Us.mp3
+233:rock/Queen - Another One Bites The Dust.mp3
+234:rock/Smash Into Pieces - The Game (Womanizer).mp3
+235:rock/Chris Rea - Houston Angel.mp3
+236:rock/B.B.King & Eric Clapton - Key To The Highway.mp3
+237:rock/Fool's Garden - Lemon Tree.mp3
+238:rock/The Beatles - Rock And Roll Music.mp3
+239:rock/Eric Clapton - Change The World.mp3
+240:rock/Oscar Benton - Bensonhurst Blues Revisited.mp3
+241:rock/The Beatles - Day Tripper.mp3
+242:rock/Chris Isaak - Can't Help Falling In Love.mp3
+243:rock/Guns N' Roses - Civil War.mp3
+244:rock/Joe Cocker - You Don't Know What You're Doing To Me.mp3
+245:rock/The Rasmus - In The Shadows (Radio Edit).mp3
+246:rock/Joe Cocker - Different Roads.mp3
+247:rock/Alex Hepburn - Love To Love You.mp3
+248:rock/The Rasmus - Livin' In A World Without You.mp3
+249:rock/The Beatles - The Long And Winding Road.mp3
+250:rock/Alice Cooper - Dangerous Tonight.mp3
+251:rock/Alice Cooper - House Of Fire.mp3
+252:rock/Men At Work - Down Under.mp3
+253:rock/Chris Rea - Angel Of Love.mp3
+254:rock/Age Of Days - The Look.mp3
+255:rock/Deep Purple - Love Conquers All.mp3
+256:rock/Natalie Imbruglia - Shiver.mp3
+257:rock/B.B.King & Tracy Chapman - The Thrill Is Gone.mp3
+258:rock/Bad Wolves - Zombie.mp3
+259:rock/Alice Cooper - Feed My Frankenstein.mp3
+260:rock/Deep Purple - The Battle Rages On.mp3
+261:rock/Guns N' Roses - November Rain.mp3
+262:rock/Alice Cooper - Only My Heart Talkin'.mp3
+263:rock/Dire Straits - Heavy Fuel.mp3
+264:rock/Europe - Open Your Heart.mp3
+265:rock/Steelheart - She's Gone (Lady).mp3
+266:rock/Dire Straits - So Far Away.mp3
+267:rock/The Score - Glory.mp3
+268:rock/Theory Of A Deadman - Angel.mp3
+269:rock/The Rolling Stones - Start Me Up.mp3
+270:rock/Arrows - I Love Rock'N'Roll.mp3
+271:rock/Anastacia - Left Outside Alone.mp3
+272:rock/10Cc - The Things We Do For Love.mp3
+273:rock/Alice Cooper - Burning Our Bed.mp3
+274:rock/Alice Cooper - Im Your Gun.mp3
+275:rock/Alice Cooper - Little By Little.mp3
+276:rock/Alice Cooper - Spark In The Dark.mp3
+277:rock/Axel Rudi Pell - The Line.mp3
+278:rock/Bad Company - Stranger Than Fiction.mp3
+279:rock/Belinda Carlisle - Heaven Is A Place On Earth.mp3
+280:rock/Blondie - Call Me.mp3
+281:rock/Bonfire - Stand Or Fall.mp3
+282:rock/Cinderella - Dont Know What You Got.mp3
+283:rock/Cinderella - The Roads Still Long.mp3
+284:rock/Cinderella - Through The Rain.mp3
+285:rock/Coverdale  Page - Take Me For A Little While.mp3
+286:rock/Deep Purple - King Of Dreams.mp3
+287:rock/Deep Purple - The Cut Runs Deep.mp3
+288:rock/Deep Purple - Wicked Ways.mp3
+289:rock/Dire Straits - Brothers In Arms.mp3
+290:rock/Doro - Unholy Love.mp3
+291:rock/Dream Theater - Another Day.mp3
+292:rock/Europe - Carrie.mp3
+293:rock/Europe - Ill Cry For You.mp3
+294:rock/Europe - Love Chaser.mp3
+295:rock/Firehouse - Dont Walk Away.mp3
+296:rock/Firehouse - Get In Touch.mp3
+297:rock/Firehouse - Here For You.mp3
+298:rock/Firehouse - I Live My Life For You.mp3
+299:rock/Firehouse - Love Dont Care.mp3
+300:rock/Firehouse - When I Look Into Your Eyes.mp3
+301:rock/Frank Duval - Angel Of Mine.mp3
+302:rock/Guns N Roses - Aint It Fun.mp3
+303:rock/Guns N Roses - Estranged.mp3
+304:rock/Guns N Roses - So Fine.mp3
+305:rock/Heart - I Didnt Want To Need You.mp3
+306:rock/Joan Osbourne - One Of Us.mp3
+307:rock/Kingdom Come - Get It On.mp3
+308:rock/Kingdom Come - Janine.mp3
+309:rock/Kingdom Come - What Love Can Be.mp3
+310:rock/Lee Aaron - Hands On.mp3
+311:rock/Mr. Big - Price You Gotta Pay.mp3
+312:rock/Mr.big - If Thats What It Takes.mp3
+313:rock/Ozzy Osbourne - I Just Want You.mp3
+314:rock/Queen - Life Is Real (Song For Lennon).mp3
+315:rock/Richard Marx - Streets Of Pain.mp3
+316:rock/Rod Stewart - Grace.mp3
+317:rock/Scorpions - Soul Behind The Face.mp3
+318:rock/Scorpions - Where The River Flows.mp3
+319:rock/Smokie - Living Next Door To Alice.mp3
+320:rock/Steelheart - Cant Stop Me Lovin You.mp3
+321:rock/The Beatles - Girl.mp3
+322:rock/Thunder - All I Ever Wanted.mp3
+323:rock/Thunder - Castles In The Sand.mp3
+324:rock/Thunder - Love Walked In.mp3
+325:rock/Thunder - Til The River Runs Dry.mp3
+326:rock/Warlock - All We Are.mp3
+327:rock/Whitesnake - All I Want All I Need.mp3
+328:rock/Whitesnake - Still Of The Night.mp3
+playlist_end
