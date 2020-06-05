@@ -9,7 +9,7 @@ super + shift + o
 	nitrogen --set-zoom-fill `find ~/Pictures/wp -type f | shuf | head -1`
 
 #Wallpaper changer 
-super + shift + h
+super + alt + o
     zathura /home/gwaka/Desktop/doc/dumbbellworkout.pdf
 #Screenshots
 Print 

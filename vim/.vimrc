@@ -2,6 +2,7 @@ map <F4> :NERDTreeToggle<CR>
 set relativenumber
 set smartindent
 set tabstop=4
+set showcmd
 set shiftwidth=4
 set expandtab
 set autoindent

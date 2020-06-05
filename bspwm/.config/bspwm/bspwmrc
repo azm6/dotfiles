@@ -1,8 +1,8 @@
 #! /bin/sh
 
 #startup-------------------------------------------
-#redshift &
-#sxhkd & 
+redshift &
+sxhkd & 
 
 nitrogen --restore &
 bash /home/gwaka/.config/polybar/launch.sh &
