@@ -1,6 +1,7 @@
-map <F4> :NERDTreeToggle<CR>
-set relativenumber
+set relativenumber 
 set smartindent
+set nowrap
+
 set tabstop=4
 set showcmd
 set shiftwidth=4
@@ -16,29 +17,26 @@ set t_Co=256
 
 set background=dark
 
-let g:lightline = {
-      \ 'colorscheme': 'solarized',
-      \ }
+let g:lightline = { 'colorscheme': 'solarized', }
 
-"=======================================================
-set nocompatible              " be iMproved, required
-filetype off                  " required
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
+call plug#begin('~/.vim/plugged')
 
-call vundle#begin()
+Plug 'itchyny/lightline.vim'
+Plug 'scrooloose/nerdtree'
+Plug 'mattn/emmet-vim'
+Plug 'scrooloose/nerdcommenter'
+Plug 'gorodinskiy/vim-coloresque'
+"Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-Plugin 'VundleVim/Vundle.vim'
+call plug#end()
 
-Plugin 'tpope/vim-surround'
-Plugin 'scrooloose/nerdtree'
-Plugin 'lervag/vimtex'
-Plugin 'ap/vim-css-color'
-Plugin 'mattn/emmet-vim'
-Plugin 'itchyny/lightline.vim'
-Plugin 'preservim/nerdcommenter'
 
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
+let mapleader = " "
 
+nnoremap <leader>h :wincmd h<CR>
+nnoremap <leader>j :wincmd j<CR>
+nnoremap <leader>k :wincmd k<CR>
+nnoremap <leader>l :wincmd l<CR>
+
+
+map <F4> :NERDTreeToggle<CR>

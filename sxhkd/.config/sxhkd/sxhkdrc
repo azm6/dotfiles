@@ -23,7 +23,7 @@ super + a
 
 super + b 
 	firefox
-    brave-browser
+    #brave-browser
 
 super + shift + b
 	firefox -private-window

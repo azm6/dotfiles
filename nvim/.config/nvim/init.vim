@@ -1,43 +1,83 @@
-map <F4> :NERDTreeToggle<CR>
+" Plugin {{{
+call plug#begin('~/.vim/plugged')
+
+Plug 'itchyny/lightline.vim'
+Plug 'scrooloose/nerdtree'
+Plug 'mattn/emmet-vim'
+Plug 'scrooloose/nerdcommenter'
+Plug 'gorodinskiy/vim-coloresque'
+Plug 'ThePrimeagen/vim-be-good' 
+Plug 'pangloss/vim-javascript'
+Plug 'maxmellon/vim-jsx-pretty'
+
+call plug#end()
+"}}}
+
+" Ui {{{
+syntax enable
+
 set relativenumber
-set smartindent
-set tabstop=4
 set showcmd
-set shiftwidth=4
-set expandtab
-set autoindent
 set nu rnu
 set laststatus=2
-syntax enable
 set cursorline
-
-"set t_Co=256
+set scrolloff=8
+set nowrap
+set incsearch
+set t_Co=256
 colorscheme solarized
 set background=dark
 
-let g:lightline = {
-      \ 'colorscheme': 'solarized',
-      \ }
+" }}}
 
-"=======================================================
-set nocompatible              " be iMproved, required
-filetype off                  " required
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
+" Tabs n Spaces {{{
 
-call vundle#begin()
+set smartindent
+set shiftwidth=4
+set tabstop=4
+set expandtab
+set autoindent
 
-Plugin 'VundleVim/Vundle.vim'
+" }}}
 
-Plugin 'tpope/vim-surround'
-Plugin 'scrooloose/nerdtree'
-Plugin 'lervag/vimtex'
-Plugin 'ap/vim-css-color'
-Plugin 'mattn/emmet-vim'
-Plugin 'itchyny/lightline.vim'
-Plugin 'preservim/nerdcommenter'
+" find {{{
+set path+=**
+set wildmenu
+set wildignore+=**/node_modules/** 
+set hidden
+" }}}
 
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
+" LightLine {{{
+let g:lightline = {'colorscheme': 'solarized',}
+"}}}
 
+" Mapping {{{
+let mapleader = " "
+                                                         
+nnoremap <leader>h :wincmd h<CR>
+nnoremap <leader>j :wincmd j<CR>
+nnoremap <leader>k :wincmd k<CR>
+nnoremap <leader>l :wincmd l<CR>
+
+map <F4> :NERDTreeToggle<CR>
+"}}}
+
+" NerdTree {{{
+let NERDTreeMapOpenInTab='<ENTER>'
+"}}}
+
+" Section Folding {{{
+set foldenable
+set foldlevelstart=10
+set foldnestmax=10
+set foldmethod=syntax
+" }}}
+
+" VIMRC {{{
+
+nnoremap <leader>ev :vsp $MYVIMRC<CR>
+nnoremap <leader>sv :source $MYVIMRC <bar> :doautocmd BufRead<CR>
+
+" }}}
+
+" vim:foldmethod=marker:foldlevel=0
