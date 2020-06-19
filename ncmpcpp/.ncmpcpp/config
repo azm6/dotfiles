@@ -32,16 +32,16 @@ message_delay_time= "1"
 
 # Progress Bar ..
 progressbar_look = "━━─"
-progressbar_color = "green"
-progressbar_elapsed_color = "green"
+progressbar_color = "red"
+progressbar_elapsed_color = "red"
 
 # Colors ..
 colors_enabled = "yes"
 empty_tag_color = "red"
-statusbar_color = "green"
-state_line_color = "green"
+statusbar_color = "red"
+state_line_color = "red"
 state_flags_color = "yellow"
-main_window_color = "green" 
+main_window_color = "red" 
 header_window_color = "white"
 
 # Misc ..   
@@ -63,5 +63,5 @@ empty_tag_marker="Unknown"
 user_interface="alternative"
 alternative_header_first_line_format ="{$3%a} - {%t}"
 alternative_header_second_line_format =""
-alternative_ui_separator_color ="green"
+alternative_ui_separator_color ="red"
 playlist_separate_albums = "no"

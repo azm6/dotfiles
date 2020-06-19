@@ -1,20 +1,3 @@
-rename Better Call Saul Season 4
-rename Better Call Saul Season 3
-mkdir Silicon valley
-rename Silicon.Valley.S05
-!rm *.srt
-shell rm * .srt
-shell rm *.srt
-sort 
-find `
-open_with j
-open_with thunar
-set colorscheme snow
-v;';'v
-b
-t
-find ff
-!unzip 
 open_with zip
 open_with unzip
 open_with unrar
@@ -26,7 +9,6 @@ execute_console vifm
 execute_command vifm
 find
 d
-shell 
 bu
 select_file *
 select_file 
@@ -34,17 +16,35 @@ rename Halt and Catch Fire Season 1
 bulkrename 
 w
 v
-delete
 search pictu
 l
-
 search .config
-search 
-find 
 search `
 find .congit
 search
 find .config
 find nv
-find do
 find dow
+cd 
+find li
+open_with zathura
+find linux
+find driver
+
+search linux
+search web
+back
+search sever
+htt
+shell 
+search 
+find http
+search http
+search backend
+search html
+search node
+find do
+find 
+bash
+search the game
+delete

@@ -6,6 +6,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'mattn/emmet-vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'gorodinskiy/vim-coloresque'
+Plug 'tpope/vim-surround'
 Plug 'ThePrimeagen/vim-be-good' 
 Plug 'pangloss/vim-javascript'
 Plug 'maxmellon/vim-jsx-pretty'
@@ -16,6 +17,8 @@ call plug#end()
 " Ui {{{
 syntax enable
 
+set nocompatible
+
 set relativenumber
 set showcmd
 set nu rnu
@@ -25,16 +28,16 @@ set scrolloff=8
 set nowrap
 set incsearch
 set t_Co=256
-colorscheme solarized
 set background=dark
+colorscheme solarized
 
 " }}}
 
 " Tabs n Spaces {{{
 
 set smartindent
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
 set expandtab
 set autoindent
 
@@ -53,17 +56,28 @@ let g:lightline = {'colorscheme': 'solarized',}
 
 " Mapping {{{
 let mapleader = " "
-                                                         
+
+nnoremap <leader>o o<Esc>
+nnoremap <leader>O o<Esc>
+                                                        
 nnoremap <leader>h :wincmd h<CR>
 nnoremap <leader>j :wincmd j<CR>
 nnoremap <leader>k :wincmd k<CR>
 nnoremap <leader>l :wincmd l<CR>
 
+noremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap {;<CR> {<CR>};<ESC>O
+
 map <F4> :NERDTreeToggle<CR>
 "}}}
 
 " NerdTree {{{
-let NERDTreeMapOpenInTab='<ENTER>'
+"let NERDTreeMapOpenInTab='<ENTER>'
 "}}}
 
 " Section Folding {{{

@@ -1,3 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/home/gwaka/.vim'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/gwaka/.audacity-data'
+let g:netrw_dirhist_2='/usr/share/nvim/runtime/doc'
+let g:netrw_dirhist_3='/home/gwaka/Code/webdev/smartBrainAPI'
+let g:netrw_dirhist_4='/home/gwaka/Code/webdev'
