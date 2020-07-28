@@ -4,5 +4,5 @@
 
 `$ git clone ~/dotfiles https://github.com/GwakaMolie/dotfiles.git`
 
-`$ stow * `
+`$ stow *`
 
