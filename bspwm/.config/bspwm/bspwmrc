@@ -1,11 +1,12 @@
 #! /bin/sh
 
-#startup-------------------------------------------
+sxhkd &
+mpd &
 redshift &
-sxhkd & 
-
 nitrogen --restore &
 bash /home/gwaka/.config/polybar/launch.sh &
+setxkbmap -option caps:escape 
+synclient VertEdgeScroll=0
 
 #workspaces-------------------------------------------
 

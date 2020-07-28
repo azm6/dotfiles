@@ -1,12 +1,12 @@
 * {
-  background-color: #2E3440;
-  bg-alt: #3B4252;
-  fg: #ECEFF4;
+  background-color: #073642;
+  bg-alt: #002b36;
+  fg: #586e75;
 
-  nord-blue-light: #88C0D0;
-  nord-yellow: #EBCB8B;
+  nord-blue-light: #2aa198;
+  nord-yellow: #b58900;
 
-  border: 0;
+  border: 3;
   lines: 9;
   padding: 0;
   margin: 0;

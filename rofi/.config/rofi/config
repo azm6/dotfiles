@@ -1,6 +1,6 @@
 rofi.modi: drun,run,window
 rofi.lines: 8
-rofi.theme:/home/gwaka/.config/rofi/themes/nord.rasi
+rofi.theme:/home/gwaka/dotfiles/rofi/.config/rofi/themes/nord.rasi
 rofi.line-padding: auto
 rofi.matching: fuzzy
 rofi.bw: 0

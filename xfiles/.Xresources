@@ -1,26 +1,28 @@
 #include ".xfiles/solarized"
 ! urxvt
 URxvt*buffered: true
-!URxvt*underlineColor: yellow
-!URxvt*font: xft:Inconsolata:style=Medium:size=15:antialias=true,
 URxvt*font: xft:mononoki:style=Regular:size=13:antialias=true,
 
 URxvt*depth: 32
 URxvt*borderless: 1
 URxvt*scrollBar:false 
-!URxvt*cursorColor:#ffffff 
 URxvt*loginShell: true
-Urxvt*secondaryScroll:  true    # Enable Shift-PageUp/Down in screen
+Urxvt*secondaryScroll: true     # Enable Shift-PageUp/Down in screen
 URxvt*saveLines: 5000
 URxvt*termName: rxvt-unicode
 URxvt.urlLauncher: firefox
 URxvt.matcher.button: 1
 URxvt*cursorBlink:false 
-Urxvt*transparent: true
+Urxvt*transparent: false 
 !URxvt*blurRadius: 15
 !urxvt*shading: 15
 URxvt.perl-ext-common: default,matcher,resize-font
 URxvt*scrollstyle:rxvt
+
+!Copy Paste
+!URxvt.clipboard.autocopy: true
+!URxvt.keysym.M-c: perl:clipboard:copy
+!URxvt.keysym.M-v: perl:clipboard:paste
 
 !Font Resize
 URxvt.keysym.C-minus:     resize-font:smaller
@@ -37,23 +39,3 @@ Xft.autohint: true
 Xft.hintstyle: hintslight
 Xft.lcdfilter: lcddefault
 
-xterm*font: -*-fixed-medium-r-*-*-20-*-*-*-*-*-iso8859-*
-!xterm*font1: -*-*-*-*-*-*-2-*-*-*-*-*-*-*
-!xterm*font2: -misc-fixed-*-r-normal-*-8-*-*-*-*-*-iso8859-*
-!xterm*font3: -b&h-lucidatypewriter-bold-*-*-*-12-*-*-*-*-*-*-*
-!xterm*font: -*-screen-bold-r-normal-*-16-*-*-*-*-*-iso8859-*
-!xterm*font5: -*-lucidatypewriter-medium-*-*-*-18-*-*-*-*-*-*-*
-!xterm*font6: -*-lucidatypewriter-medium-*-*-*-20-*-*-*-*-*-*-*
-!xterm*font7: -dec-terminal-bold-r-normal-*-14-*-*-*-*-*-iso8859-*
-
-XTerm*background: black
-XTerm*foreground: white
-XTerm*pointerColor: white
-XTerm*pointerColorBackground: white
-XTerm*cursorColor: pink
-XTerm*internalBorder: 3
-XTerm*loginShell: true
-XTerm*scrollBar: false
-XTerm*scrollKey: true
-XTerm*saveLines: 1000
-XTerm*multiClickTime: 250

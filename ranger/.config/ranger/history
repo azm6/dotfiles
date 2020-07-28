@@ -1,50 +1,50 @@
-open_with zip
-open_with unzip
-open_with unrar
-open_with 
-open_with xarchiver
-!virm
-vifm
-execute_console vifm
-execute_command vifm
-find
-d
-bu
-select_file *
-select_file 
-rename Halt and Catch Fire Season 1
-bulkrename 
-w
-v
-search pictu
-l
-search .config
-search `
-find .congit
-search
-find .config
-find nv
-find dow
-cd 
-find li
-open_with zathura
-find linux
-find driver
-
-search linux
-search web
-back
-search sever
-htt
-shell 
-search 
-find http
-search http
-search backend
 search html
-search node
 find do
 find 
 bash
 search the game
+shell do
+find vid
+find dow
+find mu
+rename Mongodb
+rename MySQL
+rename PHP.zip
+mkdir H
+rename Udemy - Develop Amazing Social Skills & Connect With People.zip
+urseWeb.com ] Udemy - Social Skills- Double Your Charisma & Communication Skills.zip
+rseWeb.com ] Udemy - Social Skills- Double Your Charisma & Communication Skills.zip
+rename Social Skills- Double Your Charisma & Communication Skills.zip
+rename Develop Amazing Social Skills & Connect With People.zip
+mkdir backend
+search ?
+find crac
+mkdir assets
+w
+rename logo.png
+c
+open_with h
+find css
+find node
+find co
+mkdir 
+find r
+open_with a
+rename Complete Python Bootcamp Go from zero to hero in Python 3.zip
+open_with zip
+search sql
+search database
+find for
+search css
+
+node
+search node
+search 
+search react
+open_with 
+delete 
 delete
+find f
+rename 04 - Dealing Effectively With Internal Commitments.mp3
+open_with mpv
+open_with 2to3-2.7

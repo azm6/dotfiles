@@ -4,6 +4,10 @@
 super + shift + x
     slock
 
+#book List 
+super + alt + b
+    bash $HOME/scripts/books-search.sh
+
 #Wallpaper changer 
 super + shift + o
 	nitrogen --set-zoom-fill `find ~/Pictures/wp -type f | shuf | head -1`
@@ -31,7 +35,7 @@ super + shift + b
 #File managers
 
 super + z
-	urxvtcd -name ranger -e ranger
+	urxvtcd -name ranger -e nnn
 
 super + shift + z
 	pcmanfm

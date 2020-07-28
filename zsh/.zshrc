@@ -69,6 +69,10 @@ ZSH_THEME="theunraveler"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git tmux)
 
+# Vim Mode
+bindkey -v
+export KEYTIMEOUT=1
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
