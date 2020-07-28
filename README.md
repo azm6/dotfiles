@@ -1,8 +1,8 @@
-# dotfiles
+# My Config files
 
-using gnu stow
+## using gnu stow
 
-$ git clone ~/dotfiles https://github.com/GwakaMolie/dotfiles.git
+`$ git clone ~/dotfiles https://github.com/GwakaMolie/dotfiles.git`
 
-$ stow *
+`$ stow * `
 
