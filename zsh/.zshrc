@@ -104,3 +104,4 @@ alias v="nvim"
 alias rns="sudo service network-manager restart"
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+export NNN_BMS="v:~/Videos;d:~/Downloads/torrents"

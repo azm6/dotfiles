@@ -11,13 +11,13 @@ set nu rnu
 set laststatus=2
 syntax enable
 
-colorscheme solarized
+"colorscheme solarized
 set cursorline
 set t_Co=256
 
-set background=dark
+"set background=dark
 
-let g:lightline = { 'colorscheme': 'solarized', }
+"let g:lightline = { 'colorscheme': 'solarized', }
 
 call plug#begin('~/.vim/plugged')
 
@@ -26,10 +26,8 @@ Plug 'scrooloose/nerdtree'
 Plug 'mattn/emmet-vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'gorodinskiy/vim-coloresque'
-"Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
-
 
 let mapleader = " "
 
