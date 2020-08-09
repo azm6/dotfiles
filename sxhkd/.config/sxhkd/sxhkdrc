@@ -12,38 +12,28 @@ super + alt + b
 super + shift + o
 	nitrogen --set-zoom-fill `find ~/Pictures/wp -type f | shuf | head -1`
 
-#Wallpaper changer 
-super + alt + o
-    zathura /home/gwaka/Desktop/doc/dumbbellworkout.pdf
 #Screenshots
 Print 
     scrot -q 100 /home/gwaka/Pictures/screenshots/'%Y-%m-%d-%s_screenshot.png' 
-#Text Editor
-
-super + a 
-	subl
 
 #Browser
-
 super + b 
 	firefox
-    #brave-browser
 
 super + shift + b
 	firefox -private-window
 
 #File managers
-
 super + z
-	urxvtcd -name ranger -e nnn
+	urxvtcd -e nnn
 
 super + shift + z
 	pcmanfm
 
 #Music Player
-
 super + shift + m
 	urxvtcd  -tr on -sh 30 -br --blurRadius 10 -name ncmpcpp -e ncmpcpp
+
 # Media player
 
 # XF86AudioPlay exec cmus-remote -u

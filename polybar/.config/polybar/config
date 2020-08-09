@@ -49,19 +49,20 @@ line-size = 2
 ;border-size = 5
 ;border-color = #00ff00
 
-padding-left = 1
+padding-left = 0
 padding-right = 1
 
 #module-margin-left = 1
 #module-margin-right = 1
 
+font-0 =  Terminus:style=Regular:size=10;2
+;font-0 = mononoki:style=Bold:size=9:antialias=false;2
+;font-0 =  Noto Sans Mono :style=Regualr:antialias=false:size=9;2
 
+;font-1 = font awesome 5 free,font awesome 5 free solid:style=solid:size=9;2
 
-font-0 = mononoki:style=Bold:size=9;2
-font-1 = font awesome 5 free,font awesome 5 free solid:style=solid:size=9;2
-
-modules-left = mpd polypomo
-modules-center = bspwm
+modules-left = bspwm polypomo  
+modules-center =mpd 
 modules-right =  pulseaudio xbacklight cpu wlan battery  date
 
 tray-position = right
@@ -84,7 +85,7 @@ margin-bottom = 2
 [module/date]
 type = internal/date
 interval = 5
-time =%I:%M %p
+time = %I:%M 
 time-alt =%a,%d %b
 label =%date%%time%
 
@@ -101,11 +102,13 @@ poll-interval = 100
 time-format = %H:%M
 
 format-charging = <label-charging>
-label-charging =  %percentage%%
-format-discharging = <ramp-capacity> <label-discharging>
-label-discharging = %percentage%%
+;label-charging =  %percentage%%
+label-charging = P %percentage%%
+;format-discharging = <ramp-capacity> <label-discharging>
+format-discharging =  <label-discharging>
+label-discharging = B %percentage%%
 
-label-full =  %percentage%%
+label-full = B %percentage%%
 
 ramp-capacity-0 =
 ramp-capacity-1 =
@@ -120,19 +123,22 @@ type = internal/network
 interface = wlp2s0
 interval = 4
 format-connected =<label-connected>
-label-connected = %downspeed%
+;label-connected = %downspeed%
+label-connected =N %downspeed%
 format-disconnected = <label-disconnected>
-label-disconnected = 
+label-disconnected = X
 
 [module/cpu]
 type = internal/cpu
 interval = 2
-label= %percentage%%
+;label= %percentage%%
+label=C %percentage%%
 
 [module/xbacklight]
 type = internal/xbacklight
 format = <label>
-label = %percentage%%
+;label = %percentage%%
+label =B %percentage%%
 ;-----------------------------------------------------------------------------------------
 
 [module/pulseaudio]
@@ -142,10 +148,12 @@ type = internal/pulseaudio
 sink = alsa_output.pci-0000_00_1b.0.analog-stereo
 use-ui-max = true
 interval = 5
-format-volume = <ramp-volume> <label-volume>
+;format-volume = <ramp-volume> <label-volume>
+format-volume = V <label-volume>
 label-volume = %percentage%%
 format-muted = <label-muted>
-label-muted =  muted
+;label-muted =  muted
+label-muted = muted
 ramp-volume-0 = 
 ramp-volume-1 = 
 ramp-volume-2 = 
@@ -155,16 +163,20 @@ click-right = pavucontrol &
 [module/bspwm]
 type = internal/bspwm
 wrapping-scroll = false
-label-focused =
+;label-focused =
+label-focused =F
 label-focused-padding = 1
-label-occupied = 
+;label-occupied = 
+label-occupied = O
 label-occupied-padding = 1
-label-urgent = 
+;label-urgent = 
+label-urgent = U
 label-urgent-padding = 1
-label-empty = 
+;label-empty = 
+label-empty = E
 label-empty-foreground = ${colors.foreground-alt}
 label-empty-padding = 1
-
+label-urgent-foreground= ${colors.alert}
 ws-icon-0 = i;
 ws-icon-1 = ii;
 ws-icon-2 = iii;
@@ -188,9 +200,10 @@ label-offline =offline
 format-offline = <label-offline>
 label-song = %title:0:40:..%
 format-font = 2
+
 format-online = <toggle> <label-song> 
-icon-play =
-icon-pause =
+icon-play = -
+icon-pause = *
 
 [module/polypomo]
 type = custom/script
