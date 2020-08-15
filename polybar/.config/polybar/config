@@ -55,15 +55,12 @@ padding-right = 1
 #module-margin-left = 1
 #module-margin-right = 1
 
-font-0 =  Terminus:style=Regular:size=10;2
-;font-0 = mononoki:style=Bold:size=9:antialias=false;2
-;font-0 =  Noto Sans Mono :style=Regualr:antialias=false:size=9;2
+font-0 = Roboto Mono:style=Medium:size=9;2
+;font-0 =  Noto Sans Mono :style=Regular:antialias=false:size=9;2
 
-;font-1 = font awesome 5 free,font awesome 5 free solid:style=solid:size=9;2
-
-modules-left = bspwm polypomo  
+modules-left = bspwm polypomo
 modules-center =mpd 
-modules-right =  pulseaudio xbacklight cpu wlan battery  date
+modules-right =  alsa xbacklight cpu wlan battery  date
 
 tray-position = right
 tray-padding = 2
@@ -81,6 +78,50 @@ margin-top = 2
 margin-bottom = 2
 
 ;--------------------------------------MODULES--------------------------------------------
+
+[module/alsa]
+type = internal/alsa
+
+; Soundcard to be used
+; Usually in the format hw:# where # is the card number
+; You can find the different card numbers in `/proc/asound/cards`
+master-soundcard = default
+headphone-soundcard = default
+
+; Name of the master, speaker and headphone mixers
+; Use the following command to list available mixer controls:
+; $ amixer scontrols | sed -nr "s/.*'([[:alnum:]]+)'.*/\1/p"
+; If master, speaker or headphone-soundcard isn't the default, 
+; use `amixer -c # scontrols` instead where # is the number 
+; of the master, speaker or headphone soundcard respectively
+;
+; Default: Master
+master-mixer = Master
+
+; Optionally define speaker and headphone mixers
+; Default: none
+headphone-mixer = Headphone
+
+; NOTE: This is required if headphone_mixer is defined
+; Use the following command to list available device controls
+; $ amixer controls | sed -r "/CARD/\!d; s/.*=([0-9]+).*name='([^']+)'.*/printf '%3.0f: %s\n' '\1' '\2'/e" | sort
+; You may also need to use `amixer -c # controls` as above for the mixer names
+; Default: none
+headphone-id = 9
+
+; Use volume mapping (similar to amixer -M and alsamixer), where the increase in volume is linear to the ear
+; Default: false
+mapped = true
+
+; Interval for volume increase/decrease (in percent points)
+; Default: 5
+interval = 5
+
+format-volume = V <label-volume>
+label-volume = %percentage%%
+format-muted = <label-muted>
+label-muted = muted
+
 
 [module/date]
 type = internal/date
@@ -208,12 +249,12 @@ icon-pause = *
 [module/polypomo]
 type = custom/script
 
-exec = /home/gwaka/scripts/polypomo
+exec = /home/void/Scripts/polypomo
 tail = true
 
 label = %output%
-click-left = /home/gwaka/scripts/polypomo toggle
-click-right = /home/gwaka/scripts/polypomo end
-click-middle = /home/gwaka/scripts/polypomo lock
-scroll-up = /home/gwaka/scripts/polypomo time +60
-scroll-down = /home/gwaka/scripts/polypomo time -60
+click-left = /home/void/Scripts/polypomo toggle
+click-right = /home/void/Scripts/polypomo end
+click-middle = /home/void/Scripts/polypomo lock
+scroll-up = /home/void/Scripts/polypomo time +60
+scroll-down = /home/void/Scripts/polypomo time -60

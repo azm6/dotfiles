@@ -10,11 +10,11 @@ super + alt + b
 
 #Wallpaper changer 
 super + shift + o
-	nitrogen --set-zoom-fill `find ~/Pictures/wp -type f | shuf | head -1`
+	feh --bg-fill --randomize ~/Pictures/wp/*
 
 #Screenshots
 Print 
-    scrot -q 100 /home/gwaka/Pictures/screenshots/'%Y-%m-%d-%s_screenshot.png' 
+    scrot -q 75 $HOME/Pictures/screenshots/'%Y-%m-%d-%s_screenshot.png' 
 
 #Browser
 super + b 
@@ -25,14 +25,14 @@ super + shift + b
 
 #File managers
 super + z
-	urxvtcd -e nnn
+	urxvtc -name nnn -e nnn
 
 super + shift + z
 	pcmanfm
 
 #Music Player
 super + shift + m
-	urxvtcd  -tr on -sh 30 -br --blurRadius 10 -name ncmpcpp -e ncmpcpp
+	urxvtc  -tr on -sh 30 -br --blurRadius 10 -name ncmpcpp -e ncmpcpp
 
 # Media player
 
@@ -50,16 +50,16 @@ super + alt + v
 super + alt + x
 	mpc --host=127.0.0.1 --port=6601 prev
 
-# Pulse Audio controls
+# alsa controls
 
 super + v
-	pactl set-sink-volume 0 -5% #decrease sound volume
+  amixer set Master 5%-
 
 super + shift + v
-	pactl set-sink-volume 0 +5% #increase sound volume
+  amixer set Master 5%+
 
 XF86AudioMute 
-	pactl set-sink-mute 0 toggle # mute sound
+  amixer set Master toggle
 
 # Touchpad controls
 
@@ -81,7 +81,7 @@ super + alt + 1
 
 # terminal emulator
 super + t
-	urxvtcd
+	urxvtc
 
 # program launcher
 super + d
@@ -127,7 +127,7 @@ super + shift + f
 
 super + f 
 #	bspc node -t {floating,tiled}
-      bspc node focused.tiled -t floating || bspc node focused.floating -t tiled
+  bspc node focused.tiled -t floating || bspc node focused.floating -t tiled
 
 # set the node flags
 # super + ctrl + {x,y,z}
