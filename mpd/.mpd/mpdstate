@@ -1,0 +1,47 @@
+sw_volume: 58
+audio_device_state:1:ALSA sound card
+state: pause
+current: 11
+time: 1084.141000
+random: 1
+repeat: 1
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:musicForProgramming/1-datassette.mp3
+1:musicForProgramming/10-unity_gain_temple.mp3
+2:musicForProgramming/11-miles_tilmann.mp3
+3:musicForProgramming/12-forgotten_light.mp3
+4:musicForProgramming/13-matt_whitehead.mp3
+5:musicForProgramming/14-tahlhoff_garten_and_untitled.mp3
+6:musicForProgramming/15-dan_adeyemi.mp3
+7:musicForProgramming/16-silent_stelios.mp3
+8:musicForProgramming/17-graphplan.mp3
+9:musicForProgramming/18-konx_om_pax.mp3
+10:musicForProgramming/19-hivemind.mp3
+11:musicForProgramming/2-sunjammer.mp3
+12:musicForProgramming/3-datassette.mp3
+13:musicForProgramming/4-com_truise.mp3
+14:musicForProgramming/5-abe_mangger.mp3
+15:musicForProgramming/6-gods_of_the_new_age.mp3
+16:musicForProgramming/7-tahlhoff_garten_and_untitled.mp3
+17:musicForProgramming/8-connectedness_locus.mp3
+18:musicForProgramming/9-datassette.mp3
+19:musicForProgramming/Calm music.m4a
+20:musicForProgramming/Chillhop jazz beats & lofi.opus
+21:musicForProgramming/Classical Music for Reading.webm
+22:musicForProgramming/Epic Medieval Music.m4a
+23:musicForProgramming/Increase Brain Power, Focus Music.opus
+24:musicForProgramming/Liquid Tension Experiment 2.flac
+25:musicForProgramming/Liquid Tension Experiment.flac
+26:musicForProgramming/Mindfulness Meditation Music for Focus.opus
+27:musicForProgramming/Minimal Techno Mix 2020.webm
+28:musicForProgramming/Minimal Techno Tripping.webm
+29:musicForProgramming/Piano and Violin.m4a
+30:musicForProgramming/Programming _Coding_Music.webm
+31:musicForProgramming/Study Music - Calming ambient.webm
+32:musicForProgramming/.unwanted/music_for_programming_38-j_s_aurelius.mp3
+playlist_end
