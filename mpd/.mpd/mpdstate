@@ -1,8 +1,9 @@
-sw_volume: 58
-audio_device_state:1:ALSA sound card
+sw_volume: 61
+audio_device_state:1:my_fifo
+audio_device_state:1:Sound Card
 state: pause
-current: 11
-time: 1084.141000
+current: 213
+time: 0.935000
 random: 1
 repeat: 1
 single: 0
@@ -17,8 +18,8 @@ playlist_begin
 3:musicForProgramming/12-forgotten_light.mp3
 4:musicForProgramming/13-matt_whitehead.mp3
 5:musicForProgramming/14-tahlhoff_garten_and_untitled.mp3
-6:musicForProgramming/15-dan_adeyemi.mp3
-7:musicForProgramming/16-silent_stelios.mp3
+6:musicForProgramming/16-silent_stelios.mp3
+7:musicForProgramming/15-dan_adeyemi.mp3
 8:musicForProgramming/17-graphplan.mp3
 9:musicForProgramming/18-konx_om_pax.mp3
 10:musicForProgramming/19-hivemind.mp3
@@ -44,4 +45,244 @@ playlist_begin
 30:musicForProgramming/Programming _Coding_Music.webm
 31:musicForProgramming/Study Music - Calming ambient.webm
 32:musicForProgramming/.unwanted/music_for_programming_38-j_s_aurelius.mp3
+33:rock/The Passenger.mp3
+34:rock/Detroit Rock City (Edit).mp3
+35:rock/Rebel Yell (Remastered).mp3
+36:rock/All The Small Things.mp3
+37:rock/Runnin' Down A Dream.mp3
+38:rock/It's The End Of The World As We Know It (And I Feel Fine) (Original Version).mp3
+39:rock/Up Around The Bend (Album Version).mp3
+40:rock/All Right Now (Album Version).mp3
+41:rock/Pretty Fly (For A White Guy).mp3
+42:rock/Fly Away.mp3
+43:rock/Blurry (Album Version).mp3
+44:rock/Nothin' But A Good Time (Remastered 2006).mp3
+45:rock/Smooth Criminal.mp3
+46:rock/Free Fallin'.mp3
+47:rock/Rammstein - Du Hast (Single Version).mp3
+48:rock/System Of A Down - Chop Suey.mp3
+49:rock/The Rolling Stones - Anybody Seen My Baby.mp3
+50:rock/Smokie - What Can I Do.mp3
+51:rock/Badfinger - Without You.mp3
+52:rock/Queen - The Show Must Go On.mp3
+53:rock/Rainbow - I Surrender.mp3
+54:rock/The Beatles - Oh Darling.mp3
+55:rock/Pink Floyd - Hey You.mp3
+56:rock/Roxette - Crash Boom Bang.mp3
+57:rock/Metallica - The Unforgiven.mp3
+58:rock/Garbage - I Think I'm Paranoid.mp3
+59:rock/Pink Floyd - Money.mp3
+60:rock/Muse - Black Black Heart (David Usher Cover).mp3
+61:rock/Queen - We Are The Champions.mp3
+62:rock/HammerFall - Blood Bound.mp3
+63:rock/The Offspring - Why Don't You Get A Job.mp3
+64:rock/Nazareth - Love Nurts.mp3
+65:rock/Nirvana - Rape Me.mp3
+66:rock/Iggy Pop - In The Death Car.mp3
+67:rock/Uriah Heep - Lady In Black.mp3
+68:rock/David Bowie - The Man Who Sold The World.mp3
+69:rock/Roxette - It Must Have Been Love.mp3
+70:rock/Nazareth - Changin' Times.mp3
+71:rock/H.I.M. - Wicked Game.mp3
+72:rock/Status Quo - In The Army Now.mp3
+73:rock/Rammstein - Engel.mp3
+74:rock/The Mamas & The Papas - California Dreamin.mp3
+75:rock/Accept - Amamos La Vida.mp3
+76:rock/Nightwish - Deep Silent Complete.mp3
+77:rock/Rammstein - Sonne.mp3
+78:rock/Alice Cooper - Poison.mp3
+79:rock/Chuck Berry - You Never Can Tell.mp3
+80:rock/Kiss - I Was Made For Lovin' You.mp3
+81:rock/The Ventures - Vibrations.mp3
+82:rock/Muse - Supermassive Black Hole.mp3
+83:rock/Eric Clapton - I Shot The Sheriff.mp3
+84:rock/Survivor - Eye Of The Tiger.mp3
+85:rock/The Beatles - Back In The U.S.S.R..mp3
+86:rock/Chris Norman - I`ll Meet You At Midnight.mp3
+87:rock/The Beatles - Help.mp3
+88:rock/Billy Idol - Eyes Without A Face.mp3
+89:rock/Rod Stewart - If Only.mp3
+90:rock/Stratovarius - Paradise.mp3
+91:rock/H-Blockx - The Power.mp3
+92:rock/Ronnie James Dio - Don't Talk To Strangers.mp3
+93:rock/Bruce Springsteen - Streets Of Phildelphia.mp3
+94:rock/The Eagles - Love Will Keep Us Alive.mp3
+95:rock/Lenny Kravitz - Again.mp3
+96:rock/Deep Purple - Demon's Eye.mp3
+97:rock/Guns N' Roses - Don't Cry.mp3
+98:rock/U2 - One.mp3
+99:rock/Billy Joel - A Matter Of Trust.mp3
+100:rock/Phil Collins - Another Day In Paradise.mp3
+101:rock/Helloween - I Want Out.mp3
+102:rock/Jerry Lee Lewis feat. Ringo Starr & John Mayer & Jon Brion - Roll Over Beethoven.mp3
+103:rock/The Cranberries - When We Were Young.mp3
+104:rock/Yeah Yeah Yeahs - Heads Will Roll.mp3
+105:rock/Hyperchild - Wonderful Life (Black Cover).mp3
+106:rock/Ulytau - Toccata And Fugue.mp3
+107:rock/Roy Orbison - You Got It.mp3
+108:rock/Suzi Quatro - All Shook Up.mp3
+109:rock/At Vance - Money, Money, Money.mp3
+110:rock/The Cardigans - My Favorite Game.mp3
+111:rock/Duran Duran - Ordinary World.mp3
+112:rock/Europe - Rock The Night.mp3
+113:rock/Scorpions - When You Came Into My Life.mp3
+114:rock/Ufo - Belladonna.mp3
+115:rock/Garry Moore - Spanish Guitar.mp3
+116:rock/The Beatles - Let It Be.mp3
+117:rock/Sex Pistols - God Save The Queen.mp3
+118:rock/UB40 - Kingston Town.mp3
+119:rock/Gene Vincent - Be-Bop-A-Lula.mp3
+120:rock/Donna Summer - Hot Stuff.mp3
+121:rock/Van Morrison - Brown Eyed Girl.mp3
+122:rock/Ben E. King - Stand By Me.mp3
+123:rock/Europe - The Final Countdown.mp3
+124:rock/Foo Fighters - Everlong.mp3
+125:rock/Depeche Mode - Personal Jesus.mp3
+126:rock/U2 - With Or Without You.mp3
+127:rock/Sinead O'Connor - Nothing Compares 2 U.mp3
+128:rock/Soundgarden - Black Hole Sun.mp3
+129:rock/Bee Gees - Stayin' Alive.mp3
+130:rock/Bob Dylan - Knockin' On Heaven's Door.mp3
+131:rock/The Doors - Light My Fire.mp3
+132:rock/Tina Turner - What's Love Got To Do With It.mp3
+133:rock/Bee Gees - How Deep Is Your Love.mp3
+134:rock/Ray Charles - Hit The Road Jack.mp3
+135:rock/The Righteous Brothers - Unchained Melody.mp3
+136:rock/Black Sabbath - Paranoid.mp3
+137:rock/U2 - Sunday Bloody Sunday.mp3
+138:rock/Queen - We Will Rock You.mp3
+139:rock/Roy Orbison - Oh, Pretty Woman.mp3
+140:rock/The Beatles - Can't Buy Me Love.mp3
+141:rock/U2 - Summer Of Love.mp3
+142:rock/Rammstein - Mein Herz Brennt.mp3
+143:rock/The Rolling Stones - Brown Sugar.mp3
+144:rock/Rammstein - Mutter.mp3
+145:rock/Billy Idol - Sweet Sixteen.mp3
+146:rock/The Eagles - Somebody.mp3
+147:rock/Shocking Blue - Venus.mp3
+148:rock/Smokie - Needles & Pins.mp3
+149:rock/Cinderella - Nobody's Fool.mp3
+150:rock/George Thorogood - Bad To The Bone.mp3
+151:rock/Travis - Sing.mp3
+152:rock/Slade - Ooh La La In L.A.mp3
+153:rock/John Lennon - (Just Like) Starting Over.mp3
+154:rock/C&C Music Factory - Gonna Make You Sweat.mp3
+155:rock/Gary Hoey - California Dreamin'.mp3
+156:rock/Joe Bonamassa - Stop.mp3
+157:rock/Guano Apes - Lords Of The Boards.mp3
+158:rock/Accept - Princess Of The Dawn.mp3
+159:rock/Blackmore's Night - Wish You Were Here.mp3
+160:rock/Geordie - House Of The Rising Sun.mp3
+161:rock/Korn - Freak On A Leash.mp3
+162:rock/INXS - Suicide Blonde.mp3
+163:rock/Lenny Kravitz - American Woman.mp3
+164:rock/Gary Moore - Still Got The Blues.mp3
+165:rock/R.E.M. - Everybody Hurts.mp3
+166:rock/The Offspring - Pretty Fly (For A White Guy).mp3
+167:rock/Andreas Johnson - Glorious.mp3
+168:rock/The Arrows - I Love Rock'N'Roll.mp3
+169:rock/No Doubt - Don't Speak.mp3
+170:rock/Uriah Heep - Free Me.mp3
+171:rock/Ozzy Osbourne - Dreamer.mp3
+172:rock/The Rolling Stones - Angie.mp3
+173:rock/George Harrison - Cockamamie Business.mp3
+174:rock/Muse - Muscle Museum.mp3
+175:rock/Tokio Hotel - When It Rains It Pours.mp3
+176:rock/The Script - The Man Who Can't Be Moved.mp3
+177:rock/Kiss - Rock And Roll All Nite.mp3
+178:rock/Loreen - '71 Charger.mp3
+179:rock/Thunder - Wonder Days.mp3
+180:rock/Saliva - They Don't Care About Us.mp3
+181:rock/Queen - Another One Bites The Dust.mp3
+182:rock/Chris Rea - Houston Angel.mp3
+183:rock/B.B.King & Eric Clapton - Key To The Highway.mp3
+184:rock/Fool's Garden - Lemon Tree.mp3
+185:rock/The Beatles - Rock And Roll Music.mp3
+186:rock/Eric Clapton - Change The World.mp3
+187:rock/Oscar Benton - Bensonhurst Blues Revisited.mp3
+188:rock/The Beatles - Day Tripper.mp3
+189:rock/Chris Isaak - Can't Help Falling In Love.mp3
+190:rock/Guns N' Roses - Civil War.mp3
+191:rock/Joe Cocker - You Don't Know What You're Doing To Me.mp3
+192:rock/The Rasmus - In The Shadows (Radio Edit).mp3
+193:rock/Joe Cocker - Different Roads.mp3
+194:rock/Alex Hepburn - Love To Love You.mp3
+195:rock/The Rasmus - Livin' In A World Without You.mp3
+196:rock/The Beatles - The Long And Winding Road.mp3
+197:rock/Alice Cooper - Dangerous Tonight.mp3
+198:rock/Alice Cooper - House Of Fire.mp3
+199:rock/Men At Work - Down Under.mp3
+200:rock/Chris Rea - Angel Of Love.mp3
+201:rock/Age Of Days - The Look.mp3
+202:rock/Deep Purple - Love Conquers All.mp3
+203:rock/Natalie Imbruglia - Shiver.mp3
+204:rock/B.B.King & Tracy Chapman - The Thrill Is Gone.mp3
+205:rock/Bad Wolves - Zombie.mp3
+206:rock/Alice Cooper - Feed My Frankenstein.mp3
+207:rock/Deep Purple - The Battle Rages On.mp3
+208:rock/Guns N' Roses - November Rain.mp3
+209:rock/Alice Cooper - Only My Heart Talkin'.mp3
+210:rock/Europe - Open Your Heart.mp3
+211:rock/Steelheart - She's Gone (Lady).mp3
+212:rock/The Score - Glory.mp3
+213:rock/Theory Of A Deadman - Angel.mp3
+214:rock/The Rolling Stones - Start Me Up.mp3
+215:rock/Arrows - I Love Rock'N'Roll.mp3
+216:rock/Anastacia - Left Outside Alone.mp3
+217:rock/10Cc - The Things We Do For Love.mp3
+218:rock/Alice Cooper - Burning Our Bed.mp3
+219:rock/Alice Cooper - Im Your Gun.mp3
+220:rock/Alice Cooper - Little By Little.mp3
+221:rock/Alice Cooper - Spark In The Dark.mp3
+222:rock/Axel Rudi Pell - The Line.mp3
+223:rock/Bad Company - Stranger Than Fiction.mp3
+224:rock/Belinda Carlisle - Heaven Is A Place On Earth.mp3
+225:rock/Blondie - Call Me.mp3
+226:rock/Bonfire - Stand Or Fall.mp3
+227:rock/Cinderella - Dont Know What You Got.mp3
+228:rock/Cinderella - The Roads Still Long.mp3
+229:rock/Cinderella - Through The Rain.mp3
+230:rock/Coverdale  Page - Take Me For A Little While.mp3
+231:rock/Deep Purple - King Of Dreams.mp3
+232:rock/Deep Purple - The Cut Runs Deep.mp3
+233:rock/Deep Purple - Wicked Ways.mp3
+234:rock/Dire Straits - Brothers In Arms.mp3
+235:rock/Doro - Unholy Love.mp3
+236:rock/Dream Theater - Another Day.mp3
+237:rock/Europe - Carrie.mp3
+238:rock/Europe - Ill Cry For You.mp3
+239:rock/Europe - Love Chaser.mp3
+240:rock/Firehouse - Dont Walk Away.mp3
+241:rock/Firehouse - Get In Touch.mp3
+242:rock/Firehouse - Here For You.mp3
+243:rock/Firehouse - I Live My Life For You.mp3
+244:rock/Firehouse - Love Dont Care.mp3
+245:rock/Firehouse - When I Look Into Your Eyes.mp3
+246:rock/Frank Duval - Angel Of Mine.mp3
+247:rock/Guns N Roses - Aint It Fun.mp3
+248:rock/Guns N Roses - Estranged.mp3
+249:rock/Guns N Roses - So Fine.mp3
+250:rock/Heart - I Didnt Want To Need You.mp3
+251:rock/Kingdom Come - Get It On.mp3
+252:rock/Kingdom Come - Janine.mp3
+253:rock/Kingdom Come - What Love Can Be.mp3
+254:rock/Lee Aaron - Hands On.mp3
+255:rock/Mr. Big - Price You Gotta Pay.mp3
+256:rock/Mr.big - If Thats What It Takes.mp3
+257:rock/Ozzy Osbourne - I Just Want You.mp3
+258:rock/Queen - Life Is Real (Song For Lennon).mp3
+259:rock/Richard Marx - Streets Of Pain.mp3
+260:rock/Rod Stewart - Grace.mp3
+261:rock/Scorpions - Soul Behind The Face.mp3
+262:rock/Scorpions - Where The River Flows.mp3
+263:rock/Smokie - Living Next Door To Alice.mp3
+264:rock/Steelheart - Cant Stop Me Lovin You.mp3
+265:rock/The Beatles - Girl.mp3
+266:rock/Thunder - All I Ever Wanted.mp3
+267:rock/Thunder - Castles In The Sand.mp3
+268:rock/Thunder - Love Walked In.mp3
+269:rock/Thunder - Til The River Runs Dry.mp3
+270:rock/Warlock - All We Are.mp3
+271:rock/Whitesnake - All I Want All I Need.mp3
+272:rock/Whitesnake - Still Of The Night.mp3
 playlist_end
