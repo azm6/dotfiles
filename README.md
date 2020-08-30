@@ -1,6 +1,6 @@
 # My Config files
 
-![ScreenShot]()
+![ScreenShot](https://github.com/GwakaMolie/dotfiles/blob/master/screenshot.png)
 
 ## Essential Software
 `$ install git stow rxvt-unicod curl wget firefox feh bspwm htop sxhkd polybar nvim rofi nnn mpd mpc ncmpcpp tmux zathura  zathura-pdf-poppler slock scort `
