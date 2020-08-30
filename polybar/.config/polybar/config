@@ -60,7 +60,8 @@ font-0 = Roboto Mono:style=Medium:size=9;2
 
 modules-left = bspwm polypomo
 modules-center =mpd 
-modules-right =  alsa xbacklight cpu wlan battery  date
+modules-right =  alsa xbacklight cpu wlan battery date
+
 
 tray-position = right
 tray-padding = 2
@@ -78,6 +79,20 @@ margin-top = 2
 margin-bottom = 2
 
 ;--------------------------------------MODULES--------------------------------------------
+
+[module/temperature]
+type = internal/temperature
+thermal-zone = 0
+warn-temperature = 65
+format = <label>
+format-warn = <label-warn>
+format-prefix = "T "
+format-warn-prefix = "T "
+
+label = %temperature-c%
+label-warn = %temperature-c%
+label-warn-foreground = ${colors.alert}
+
 
 [module/alsa]
 type = internal/alsa

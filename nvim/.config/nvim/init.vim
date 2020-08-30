@@ -16,7 +16,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install',
-  \ 'for': ['javascript', 'python', 'css', 'json', 'html'] }
+  \ 'for': ['c', 'javascript', 'python', 'css', 'json', 'html'] }
     
 call plug#end()
 "}}}
@@ -43,11 +43,10 @@ colorscheme solarized
 " }}}
 
 " Tabs n Spaces {{{
-"set listchars=tab:▸\ ,eol:¬
-autocmd Filetype python setlocal tabstop=4
+autocmd Filetype javascript setlocal tabstop=2
 set smartindent
-set shiftwidth=2
-set tabstop=2
+set shiftwidth=4
+set tabstop=4
 set expandtab
 set autoindent
 
@@ -68,6 +67,7 @@ let mapleader = " "
 
 "python
 noremap <leader>r :!python %<CR>
+noremap <leader>; A;<Esc>
 
 ""new line
 nnoremap <leader>o o<Esc>

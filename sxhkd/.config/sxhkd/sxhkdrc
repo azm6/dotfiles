@@ -6,7 +6,7 @@ super + shift + x
 
 #book List 
 super + alt + b
-    bash $HOME/scripts/books-search.sh
+    bash $HOME/Scripts/books-search.sh
 
 #Wallpaper changer 
 super + shift + o
@@ -32,7 +32,7 @@ super + shift + z
 
 #Music Player
 super + shift + m
-	urxvtc  -tr on -sh 30 -br --blurRadius 10 -name ncmpcpp -e ncmpcpp
+	urxvtc  -name ncmpcpp -e ncmpcpp
 
 # Media player
 
