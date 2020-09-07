@@ -10,7 +10,7 @@ super + alt + b
 
 #Wallpaper changer 
 super + shift + o
-	feh --bg-fill --randomize ~/Pictures/wp/*
+	feh --bg-fill --randomize ~/Pictures/wp/* && sleep 4 
 
 #Screenshots
 Print 
@@ -18,7 +18,7 @@ Print
 
 #Browser
 super + b 
-	firefox
+    firefox
 
 super + shift + b
 	firefox -private-window
@@ -135,9 +135,8 @@ super + f
 
 # focus/swap----------------------------
 
-# focus the node in the given direction
 super + {_,shift + }{h,j,k,l}
-	bspc node -{f,s} {west,south,north,east}
+    bspc node -{f,s} {west,south,north,east}
 
 
 # focus the next/previous node in the current desktop

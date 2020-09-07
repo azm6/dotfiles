@@ -24,6 +24,14 @@ URxvt.keysym.C-plus:     font-size:increase
 URxvt.keysym.C-minus:   font-size:decrease
 URxvt.keysym.C-equal:  font-size:reset
 
+!XTERM
+XTerm*faceName:  Luxi Mono
+XTerm*faceSize: 14
+XTerm*saveLines: 16384
+XTerm*loginShell: true
+XTerm*background: #000000
+XTerm*foreground: #ffffff
+
 Xft.dpi: 96
 Xft.antialias: true
 Xft.hinting: true
