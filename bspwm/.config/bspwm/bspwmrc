@@ -1,6 +1,7 @@
 #! /bin/sh
 
-feh --bg-fill --randomize ~/Pictures/wp/*
+#feh --bg-fill --randomize ~/Pictures/wp/*
+nitrogen --restore
 bash /home/void/.config/polybar/launch.sh &
 
 #workspaces-------------------------------------------
@@ -9,6 +10,7 @@ bspc monitor -d I II III IV V VI VII VIII IX X
 #tiled-------------------------------------------
 bspc config focus_follows_pointer true
 bspc config border_width 1
+bspc config focused_border_color "#d33682"
 bspc config window_gap   0
 bspc config split_ratio  0.5
 bspc config top_padding  28

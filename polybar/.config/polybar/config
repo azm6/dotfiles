@@ -56,9 +56,9 @@ padding-right = 1
 #module-margin-right = 1
 
 font-0 = Roboto Mono:style=Medium:size=9;2
-;font-0 =  Noto Sans Mono :style=Regular:antialias=false:size=9;2
+;font-0 =  DejaVu Sans Mono:style=Regular:antialias=false:size=9;2
 
-modules-left = bspwm polypomo
+modules-left = bspwm 
 modules-center =mpd 
 modules-right =  alsa xbacklight cpu wlan battery date
 

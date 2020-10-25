@@ -1,6 +1,10 @@
 #COSTUM BINDINGS----------------------------
 
 #Locker
+super + g
+    gimp
+
+#Locker
 super + shift + x
     slock
 
@@ -10,7 +14,8 @@ super + alt + b
 
 #Wallpaper changer 
 super + shift + o
-	feh --bg-fill --randomize ~/Pictures/wp/* && sleep 4 
+    nitrogen --set-zoom-fill `find ~/Pictures/wp -type f | shuf | head -1`    
+	#feh --bg-fill --randomize ~/Pictures/wp/* && sleep 4 
 
 #Screenshots
 Print 
@@ -22,6 +27,10 @@ super + b
 
 super + shift + b
 	firefox -private-window
+
+super + shift + t
+    exec /home/void/Documents/tor-browser_en-US/Browser/start-tor-browser
+   
 
 #File managers
 super + z
@@ -41,13 +50,13 @@ super + shift + m
 # XF86AudioNext exec cmus-remote -n
 # XF86AudioPrev exec cmus-remote -r
 
-super + alt + c
+super + alt + 9
 	mpc --host=127.0.0.1 --port=6601 toggle
 
-super + alt + v
+super + alt + 0
 	mpc --host=127.0.0.1 --port=6601 next
 
-super + alt + x
+super + alt + 8
 	mpc --host=127.0.0.1 --port=6601 prev
 
 # alsa controls

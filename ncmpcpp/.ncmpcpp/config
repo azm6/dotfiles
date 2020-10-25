@@ -20,7 +20,7 @@ song_status_format = "$0%a - $0%t"
 playlist_display_mode = "columns" (classic/columns)
 
 # Now Playing ..
-now_playing_prefix = "$3>>>"
+now_playing_prefix = "$2▶▶▶"
 now_playing_suffix = "$8$/b"
 
 # Playlist ..

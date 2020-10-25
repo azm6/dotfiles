@@ -26,7 +26,7 @@ URxvt.keysym.C-equal:  font-size:reset
 
 !XTERM
 XTerm*faceName:  Luxi Mono
-XTerm*faceSize: 14
+XTerm*faceSize: 16
 XTerm*saveLines: 16384
 XTerm*loginShell: true
 XTerm*background: #000000

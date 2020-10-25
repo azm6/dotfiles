@@ -1,22 +1,17 @@
 " Plugin {{{
 call plug#begin('~/.vim/plugged')
 
-Plug 'sonph/onehalf', {'rtp': 'vim/'}
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-Plug 'vim-python/python-syntax'
 Plug 'itchyny/lightline.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'mattn/emmet-vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'gorodinskiy/vim-coloresque'
 Plug 'tpope/vim-surround'
-"Plug 'ThePrimeagen/vim-be-good' 
-Plug 'pangloss/vim-javascript'
-Plug 'maxmellon/vim-jsx-pretty'
 Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install',
-  \ 'for': ['c', 'javascript', 'python', 'css', 'json', 'html'] }
+  \ 'for': ['javascript', 'css', 'json', 'html'] }
     
 call plug#end()
 "}}}
