@@ -8,6 +8,10 @@ super + g
 super + shift + x
     slock
 
+#Locker
+super + n 
+    exec ~/.joplin/Joplin.AppImage &
+
 #book List 
 super + alt + b
     bash $HOME/Scripts/books-search.sh

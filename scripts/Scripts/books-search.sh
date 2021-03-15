@@ -5,7 +5,7 @@
 BOOKS_DIR=~/Desktop/Books
 
 # Save find result to F_ARRAY
-readarray -t F_ARRAY <<< "$(find Desktop/Books -type f -regex '.*\(pdf\|djvu\)$')"
+readarray -t F_ARRAY <<< "$(find Desktop/Books -type f -regex '.*\(pdf\|djvu\|epub\)$')"
 
 # Associative array for storing books
 # key => book name
@@ -44,7 +44,7 @@ gen_list(){
 
 main() {
   get_books
-  book=$( (gen_list) | rofi -fullscreen -dmenu -i -matching fuzzy -no-custom -location 0 -p "Book > " )
+  book=$( (gen_list) | rofi -fullscreen -dmenu -i -matching normal -no-custom -location 0 -p "Book > " )
 
   if [ -n "$book" ]; then
     xdg-open "${BOOKS[$book]}"

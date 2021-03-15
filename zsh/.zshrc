@@ -2,7 +2,14 @@ export ZSH="/home/void/.oh-my-zsh"
 
 ZSH_THEME="theunraveler"
 
-plugins=(git)
+plugins=(
+    git
+    vi-mode
+)
+
+VI_MODE_RESET_PROMPT_ON_MODE_CHANGE=true
+VI_MODE_SET_CURSOR=true
+ZSH_COMPDUMP="$ZSH_CACHE_DIR/.zcompdump"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -14,3 +21,6 @@ alias scan="sudo arp-scan -l"
 alias wttr="curl https://wttr.in/skikda"
 
 export PATH=/home/void/.local/bin:$PATH
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"

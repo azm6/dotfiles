@@ -1,6 +1,0 @@
-#!/usr/bin/perl
-
-[click]
-full_text=Click me!
-command=echo "Got clicked with button $button"
-color=#F79494

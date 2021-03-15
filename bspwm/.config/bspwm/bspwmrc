@@ -26,5 +26,5 @@ bspc config paddingless_monocle  true
 # Window Rules-------------------------------------------
 bspc rule -a Firefox desktop=^1 follow=on
 bspc rule -a Zathura state=tiled
-bspc rule -a qBittorrent desktop=^10 state=floating
+bspc rule -a qBittorrent desktop=^10 
 bspc rule -a URxvt:ncmpcpp follow=on desktop=^9 state=floating

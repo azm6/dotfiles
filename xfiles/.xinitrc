@@ -5,5 +5,5 @@ setxkbmap -option caps:escape
 xrdb ~/.Xresources
 urxvtd &
 source .zshrc
+redshift -l 0:35 &
 exec bspwm
-
