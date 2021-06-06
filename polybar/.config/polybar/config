@@ -60,7 +60,7 @@ font-0 = Roboto Mono:style=Medium:size=9;2
 
 modules-left = bspwm 
 modules-center =mpd 
-modules-right =  alsa xbacklight cpu wlan battery date
+modules-right =  pulseaudio xbacklight cpu wlan battery date
 
 
 tray-position = right

@@ -21,42 +21,42 @@ set page-padding 1
 
 #set default-bg                  "#002b36"
 #set default-fg                  "#073642"
-
+#
 #set statusbar-fg                "#93a1a1"
 #set statusbar-bg                "#073642"
-
+#
 #set inputbar-bg                 "#002b36"
 #set inputbar-fg                 "#fdf6e3"
-
+#
 #set notification-bg             "#002b36"
 #set notification-fg             "#fdf6e3"
-
+#
 #set notification-error-bg       "#002b36"
 #set notification-error-fg       "#dc322f"
-
+#
 #set notification-warning-bg     "#002b36"
 #set notification-warning-fg     "#dc322f"
-
+#
 #set highlight-color             "#b58900"
 #set highlight-active-color      "#268bd2"
-
+#
 #set completion-bg               "#073642"
 #set completion-fg               "#268bd2"
-
+#
 #set completion-highlight-fg     "#fdf6e3"
 #set completion-highlight-bg     "#268bd2"
-
+#
 #set recolor-lightcolor          "#002b36"
-#set recolor-darkcolor           "#eee8d5"
-
+#set recolor-darkcolor           "#839496"
+#
 #set recolor                     "true"
 #set recolor-keephue             "true"
 
 # Base16 Grayscale Dark
 # Author: Alexandre Gavioli (https://github.com/Alexx2/)
 
-set default-bg                  "#101010"
-set default-fg                  "#252525"
+set default-bg                  "#1a1a1a"
+set default-fg                  "#b5b5b5"
 
 set statusbar-fg                "#ababab"
 set statusbar-bg                "#464646"
@@ -82,8 +82,8 @@ set completion-fg               "#686868"
 set completion-highlight-fg     "#f7f7f7"
 set completion-highlight-bg     "#686868"
 
-set recolor-lightcolor          "#101010"
-set recolor-darkcolor           "#e3e3e3"
+set recolor-lightcolor          "#1a1a1a"
+set recolor-darkcolor           "#b5b5b5"
 
 set recolor                     "false"
 set recolor-keephue             "false"

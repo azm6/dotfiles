@@ -7,6 +7,7 @@ Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'itchyny/lightline.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'mattn/emmet-vim'
+Plug 'joshdick/onedark.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'gorodinskiy/vim-coloresque'
 Plug 'tpope/vim-surround'
@@ -31,7 +32,6 @@ set scrolloff=8
 set nowrap
 set incsearch
 set t_Co=256
-
 
 set background=dark
 colorscheme solarized

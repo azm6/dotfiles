@@ -1,8 +1,8 @@
 #COSTUM BINDINGS----------------------------
 
-#Locker
-super + g
-    gimp
+#calc
+super + shift + c
+    qalculate-gtk
 
 #Locker
 super + shift + x
@@ -38,14 +38,16 @@ super + shift + t
 
 #File managers
 super + z
-	urxvtc -name nnn -e nnn
+    alacritty -t nnn -e nnn
+	#urxvtc -name nnn -e nnn
 
 super + shift + z
 	pcmanfm
 
 #Music Player
 super + shift + m
-	urxvtc  -name ncmpcpp -e ncmpcpp
+    alacritty --class ncmpcpp -e ncmpcpp
+	#urxvtc  -name ncmpcpp -e ncmpcpp
 
 # Media player
 
@@ -94,7 +96,8 @@ super + alt + 1
 
 # terminal emulator
 super + t
-	urxvtc
+    alacritty
+	#urxvtc
 
 # program launcher
 super + d

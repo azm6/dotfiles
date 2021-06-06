@@ -1,6 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =4
-let g:netrw_dirhist_4='/home/void/.ncmpcpp'
-let g:netrw_dirhist_3='/home/void/.local/share/mime/application'
-let g:netrw_dirhist_2='/home/void/.local/share/mime'
-let g:netrw_dirhist_1='/etc/modprobe.d'
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/void/dotfiles/nvim/.config/nvim/colors'
+let g:netrw_dirhist_6='/home/void/Code/cpp/cppGameDevBook/myCode/ch2/include'
+let g:netrw_dirhist_5='/home/void/Code/cpp/cppGameDevBook/myCode/ch2'
+let g:netrw_dirhist_4='/home/void/Code/cpp/cppGameDevBook/myCode'
+let g:netrw_dirhist_3='/home/void/Code/cpp/cppGameDevBook'
+let g:netrw_dirhist_2='/home/void/Code/cpp/cppGameDevBook/myCode/ch2/src'
+let g:netrw_dirhist_1='/home/void/Code/cpp/cppGameDevBook/myCode/ch2'
+let g:netrw_dirhist_0='/home/void/Code/cpp/cppGameDevBook/myCode'
+let g:netrw_dirhist_9='/home/void/Code/cpp/cppGameDevBook'
+let g:netrw_dirhist_8='/home/void/Code/cpp/cppGameDevBook/myCode/ch2/src'
