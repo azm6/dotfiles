@@ -6,7 +6,7 @@
 `$ install git stow rxvt-unicod curl wget firefox feh bspwm htop sxhkd polybar nvim rofi nnn mpd mpc ncmpcpp tmux zathura  zathura-pdf-poppler slock scort `
 
 ## Optional Software
-  `$ install geany gcolor abiword gnumeric lxappearance pcmanfm pfetch neofetch qbittorrent zsh oh-my-zsh tldr xarchiver unzip unrar/unar wifish(void) networkmanager(void) sxiv `
+  `$ install alacritty geany gcolor abiword gnumeric lxappearance pcmanfm pfetch neofetch qbittorrent zsh oh-my-zsh tldr xarchiver unzip unrar/unar wifish(void) networkmanager(void) sxiv `
 
 
 ## Using gnu stow for quick setup
