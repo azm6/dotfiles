@@ -5,6 +5,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'itchyny/lightline.vim'
+Plug 'sheerun/vim-polyglot'
 Plug 'scrooloose/nerdtree'
 Plug 'mattn/emmet-vim'
 Plug 'joshdick/onedark.vim'
@@ -36,7 +37,12 @@ set t_Co=256
 set background=dark
 colorscheme solarized
 
+
 " }}}
+
+" LightLine {{{
+let g:lightline = {'colorscheme': 'solarized',}
+"}}}
 
 " Tabs n Spaces {{{
 autocmd Filetype javascript setlocal tabstop=2
@@ -53,10 +59,6 @@ set wildmenu
 set wildignore+=**/node_modules/** 
 set hidden
 " }}}
-
-" LightLine {{{
-let g:lightline = {'colorscheme': 'solarized',}
-"}}}
 
 "Mapping {{{
 let mapleader = " "

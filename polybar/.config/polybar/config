@@ -15,7 +15,6 @@ primary = #c1c1c1
 secondary = #e60053
 alert = #bd2c40
 
-
 [settings]
 screenchange-reload = true
 pseudo-transparency =false 
