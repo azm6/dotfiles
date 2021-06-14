@@ -13,21 +13,20 @@ syntax enable
 
 "colorscheme solarized
 set cursorline
-set t_Co=256
 
 "set background=dark
 
 "let g:lightline = { 'colorscheme': 'solarized', }
 
-call plug#begin('~/.vim/plugged')
-
-Plug 'itchyny/lightline.vim'
-Plug 'scrooloose/nerdtree'
-Plug 'mattn/emmet-vim'
-Plug 'scrooloose/nerdcommenter'
-Plug 'gorodinskiy/vim-coloresque'
-
-call plug#end()
+""call plug#begin('~/.vim/plugged')
+""
+""Plug 'itchyny/lightline.vim'
+""Plug 'scrooloose/nerdtree'
+""Plug 'mattn/emmet-vim'
+""Plug 'scrooloose/nerdcommenter'
+""Plug 'gorodinskiy/vim-coloresque'
+""
+""call plug#end()
 
 let mapleader = " "
 
