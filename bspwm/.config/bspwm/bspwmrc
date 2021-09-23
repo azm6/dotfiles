@@ -4,7 +4,7 @@
 nitrogen --restore
 bash /home/void/.config/polybar/launch.sh &
 
-wmname LG3D &
+#wmname LG3D &
 
 #workspaces-------------------------------------------
 bspc monitor -d I II III IV V VI VII VIII IX X
@@ -21,13 +21,14 @@ bspc config focus_follows_pointer false
 bspc config single_monocle true
 
 #monocle-------------------------------------------
-bspc config borderless_monocle   true
-bspc config gapless_monocle      true
-bspc config paddingless_monocle  true
+bspc config borderless_monocle true
+bspc config gapless_monocle true
+bspc config paddingless_monocle true
 
 # Window Rules-------------------------------------------
 bspc rule -a Firefox desktop=^1 follow=on
 bspc rule -a Zathura state=tiled
 bspc rule -a qBittorrent desktop=^10 
+bspc rule -a Joplin desktop=^7 
 bspc rule -a Alacritty:ncmpcpp follow=on desktop=^9 state=floating
 bspc rule -a jetbrains-studio state=floating border=off follow=on

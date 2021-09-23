@@ -14,7 +14,7 @@ mpd_port = "6601"
 # Display ..
 song_list_format = " $0%n $1• $8%t $R$0%a "
 
-song_columns_list_format = "(3)[]{} (40)[white]{a|f} - (60)[white]{t|f}  (7f)[white]{l}"
+song_columns_list_format = "(3)[]{} (30)[white]{a|f} (60)[white]{t|f}  (7f)[white]{l}"
 
 song_status_format = "$0%a - $0%t"
 playlist_display_mode = "columns" (classic/columns)

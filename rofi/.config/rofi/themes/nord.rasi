@@ -2,9 +2,9 @@
   background-color: #073642;
   bg-alt: #002b36;
   fg: #586e75;
-
   nord-blue-light: #2aa198;
   nord-yellow: #b58900;
+
 
   border: 3;
   lines: 9;

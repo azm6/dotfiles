@@ -47,7 +47,8 @@ main() {
   book=$( (gen_list) | rofi -fullscreen -dmenu -i -matching normal -no-custom -location 0 -p "Book > " )
 
   if [ -n "$book" ]; then
-    xdg-open "${BOOKS[$book]}"
+    #xdg-open "${BOOKS[$book]}"
+    zathura "${BOOKS[$book]}"
   fi
 }
 

@@ -1,5 +1,13 @@
 #COSTUM BINDINGS----------------------------
 
+#notes
+super + shift + j
+    exec ~/.joplin/Joplin.AppImage
+
+#godot
+super + shift + g
+    godot
+
 #calc
 super + shift + c
     qalculate-gtk
@@ -7,10 +15,6 @@ super + shift + c
 #Locker
 super + shift + x
     slock
-
-#Locker
-super + n 
-    exec ~/.joplin/Joplin.AppImage &
 
 #book List 
 super + alt + b
@@ -33,7 +37,7 @@ super + shift + b
 	firefox -private-window
 
 super + shift + t
-    exec /home/void/Documents/tor-browser_en-US/Browser/start-tor-browser
+    exec /home/void/Documents/tor/Browser/start-tor-browser
    
 
 #File managers
@@ -103,6 +107,10 @@ super + t
 super + d
 	rofi -show drun 
 
+# emojies
+super + shift + d
+    rofi -show emoji -modi emoji
+
 # Restart bspwm
 super + shift + r
 	bspc wm -r
@@ -156,8 +164,8 @@ super + {_,shift + }{h,j,k,l}
 
 
 # focus the next/previous node in the current desktop
-super + {_,shift + }c
-	bspc node -f {next,prev}.local
+super + c
+	bspc node -f next.local.window
 
 # focus the older or newer node in the focus history
 super + {o,i}

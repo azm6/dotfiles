@@ -33,7 +33,7 @@ format-margin = 0
 format-offset =
 
 [bar/mybar]
-;monitor = ${env:monitor:hdmi-1}
+;monitor = ${env:monitor:HDMI1}
 width = 100%
 height = 28
 
@@ -54,7 +54,8 @@ padding-right = 1
 #module-margin-left = 1
 #module-margin-right = 1
 
-font-0 = Roboto Mono:style=Medium:size=9;2
+font-0 = Hasklug Nerd Font :style=Medium:size=9;2
+;font-0 = Roboto Mono:style=Medium:size=9;2
 ;font-0 =  DejaVu Sans Mono:style=Regular:antialias=false:size=9;2
 
 modules-left = bspwm 
@@ -256,9 +257,12 @@ format-offline = <label-offline>
 label-song = %title:0:40:..%
 format-font = 2
 
-format-online = <toggle> <label-song> 
 icon-play = -
+icon-next = >
+icon-prev = <
 icon-pause = *
+
+format-online = <icon-prev> <toggle> <icon-next> <label-song> 
 
 [module/polypomo]
 type = custom/script
