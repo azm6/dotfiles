@@ -6,12 +6,12 @@
 #foreground = #ececec
 #foreground-alt = #687B96
 
-background = #073642
-background-alt = #30475e
-foreground = #93a1a1
-foreground-alt = #586e75
+background = #2B353A
+background-alt = #5Cff70
+foreground = #ABB2BF
+foreground-alt = #5a5c60
 
-primary = #c1c1c1
+primary = #c10000
 secondary = #e60053
 alert = #bd2c40
 

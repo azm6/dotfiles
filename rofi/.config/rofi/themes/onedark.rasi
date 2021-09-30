@@ -1,9 +1,9 @@
 * {
-  background-color: #073642;
-  bg-alt: #002b36;
-  fg: #586e75;
-  nord-blue-light: #2aa198;
-  nord-yellow: #b58900;
+  background-color: #282C34;
+  bg-alt: #4B5263;
+  fg: #ABB2BF;
+  nord-blue-light: #61AFEF;
+  nord-yellow: #E5C07B;
 
 
   border: 3;
