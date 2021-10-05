@@ -6,10 +6,10 @@
 #foreground = #ececec
 #foreground-alt = #687B96
 
-background = #2B353A
+background = #333842
 background-alt = #5Cff70
 foreground = #ABB2BF
-foreground-alt = #5a5c60
+foreground-alt = #677289
 
 primary = #c10000
 secondary = #e60053

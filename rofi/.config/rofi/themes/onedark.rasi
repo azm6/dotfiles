@@ -1,54 +1,25 @@
+
+configuration {
+	modi: "window,run,ssh,drun";
+	font: "Hack  12";
+}
+
 * {
-  background-color: #282C34;
-  bg-alt: #4B5263;
-  fg: #ABB2BF;
-  nord-blue-light: #61AFEF;
-  nord-yellow: #E5C07B;
-
-
-  border: 3;
-  lines: 9;
-  padding: 0;
-  margin: 0;
-  spacing: 0;
-}
-
-window {
-  width: 30%;
-}
-
-mainbox {
-  children: [inputbar, listview];
-}
-
-listview {
-  columns: 1;
-}
-
-element {
-  padding: 6;
-  orientation: vertical;
-  text-color: @fg;
-}
-
-element selected {
-  background-color: @bg-alt;
-  text-color: @nord-blue-light;
-}
-
-inputbar {
-  background-color: @background;
-  children: [prompt, entry];
+	background-color: #1c1c1c;
+	text-color: #abb2bf;
+	border: 0.5% 0.25% 0.5% 0.25%;
+	border-color: #1c1c1c;
+	location: center;
 }
 
 prompt {
-  enabled: true;
-  font: "SauceCodePro Nerd Font 12";
-  padding: 12 0 0 12;
-  text-color: @nord-yellow;
+	enabled: true;
+	padding: 0% 0.5% 0% 0%;
+	font: "Hack";
+	text-color: #abb2bf;
+	background-color: #1c1c1c;
 }
 
-entry {
-  padding: 12;
-  text-color: @nord-yellow;
+element selected {
+	text-color: #00ff00;
 }

@@ -1,0 +1,67 @@
+configuration {
+  display-run: ">> ";
+  display-drun: ">> ";
+  display-window: ">> ";
+  drun-display-format: "{name}";
+  font: "Hack 12";
+  modi: "window,run,drun";
+}
+
+window {
+  width:  25%;
+}
+
+* {
+  bg: #151515;
+  bg-alt: #414141;
+
+  fg: #ffffff;
+  fg-alt: #555555;
+
+  background-color: @bg;
+  
+  border: 0;
+  margin: 0;
+  padding: 0;
+  spacing: 0;
+}
+
+element {
+  padding: 12;
+  text-color: @fg-alt;
+}
+
+element selected {
+  background-color: @bg-alt;
+  text-color: @fg;
+}
+
+element-text {
+  padding: 2;
+  background-color: inherit;
+  text-color: inherit;
+}
+
+entry {
+  padding: 12 0 12 3;
+  text-color: @fg;
+}
+
+inputbar {
+  children: [prompt, entry];
+}
+
+listview {
+  columns: 1;
+  lines: 8;
+}
+
+mainbox {
+  children: [inputbar, listview];
+}
+
+prompt {
+  padding: 12 0 0 12;
+  text-color: @fg;
+}
+
