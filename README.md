@@ -15,3 +15,5 @@
 
 `$ stow *`
 
+- Mime-type file must be placed at the .config directory 
+
