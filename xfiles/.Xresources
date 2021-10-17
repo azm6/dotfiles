@@ -1,4 +1,4 @@
-#include ".xfiles/solarized"
+#include ".xfiles/onedark"
 ! urxvt https://github.com/majutsushi/urxvt-font-sizea
 URxvt*buffered: true
 URxvt*font: xft:Hack:style=Regular:size=13:antialias=true,
