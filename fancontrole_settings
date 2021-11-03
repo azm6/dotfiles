@@ -1,0 +1,14 @@
+Common settings:
+  INTERVAL=10
+
+Settings for hwmon2/pwm1:
+  Depends on hwmon3/temp1_input
+  Controls hwmon2/fan1_input
+  MINTEMP=35
+  MAXTEMP=75
+  MINSTART=160
+  MINSTOP=90
+  MINPWM=0
+  MAXPWM=255
+  AVERAGE=1
+
