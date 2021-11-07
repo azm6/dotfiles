@@ -176,7 +176,7 @@ bar-capacity-width = 10
 
 [module/wlan]
 type = internal/network
-interface = wlp2s0
+interface =wlp* 
 interval = 4
 format-connected =<label-connected>
 ;label-connected = %downspeed%

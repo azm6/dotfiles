@@ -1,0 +1,2 @@
+#!/bin/sh
+ip route | grep '^default' | awk '{print $5}'
