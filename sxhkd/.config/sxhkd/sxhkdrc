@@ -42,7 +42,7 @@ super + shift + t
 
 #File managers
 super + z
-    alacritty -t nnn -e nnn
+    alacritty -t joshuto -e joshuto
 	#urxvtc -name nnn -e nnn
 
 super + shift + z
