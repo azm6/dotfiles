@@ -37,7 +37,7 @@ super + shift + b
 	firefox -private-window
 
 super + shift + t
-    exec /home/void/Documents/tor/Browser/start-tor-browser
+    exec $HOME/Documents/tor/Browser/start-tor-browser
    
 
 #File managers
@@ -83,7 +83,7 @@ XF86AudioMute
 # Touchpad controls
 
 XF86TouchpadToggle  
-	/home/gwaka/scripts/toggletouchpad.sh
+	$HOME/scripts/toggletouchpad.sh
 
 # Sreen brightness controls
 
@@ -105,7 +105,7 @@ super + t
 
 # program launcher
 super + d
-	rofi -show drun 
+    rofi -show drun -theme minimal
 
 # emojies
 super + shift + d
