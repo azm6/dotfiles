@@ -1,16 +1,9 @@
-#COSTUM BINDINGS----------------------------
+#!/usr/bin/env sh
 
-#notes
-super + shift + j
-    exec ~/.joplin/Joplin.AppImage
-
-#godot
-super + shift + g
-    godot
-
+#------------COSTUM BINDINGS------------
 #calc
 super + shift + c
-    qalculate-gtk
+    gnome-calculator
 
 #Locker
 super + shift + x
@@ -19,32 +12,25 @@ super + shift + x
 #book List 
 super + alt + b
     bash $HOME/Scripts/books-search.sh
+#audiobook List
+super + alt + o
+    bash $HOME/Scripts/audiobooks-search.sh
 
 #Wallpaper changer 
 super + shift + o
-    nitrogen --set-zoom-fill `find ~/Pictures/wp -type f | shuf | head -1`    
-	#feh --bg-fill --randomize ~/Pictures/wp/* && sleep 4 
+    nitrogen --set-zoom-fill `find ~/Pictures/wp -type f | shuf | head -1`
 
 #Screenshots
 Print 
-    scrot -q 75 $HOME/Pictures/screenshots/'%Y-%m-%d-%s_screenshot.png' 
+    scrot -q 100 $HOME/Pictures/screenshots/'%Y-%m-%d-%s_screenshot.png' 
 
 #Browser
 super + b 
     firefox
 
-super + shift + b
-	firefox -private-window
-
-super + shift + t
-    exec $HOME/Documents/tor/Browser/start-tor-browser
-   
-
 #File managers
 super + z
     alacritty -t joshuto -e joshuto
-	#urxvtc -name nnn -e nnn
-
 super + shift + z
 	pcmanfm
 
@@ -52,62 +38,43 @@ super + shift + z
 super + shift + m
     alacritty --class ncmpcpp -e ncmpcpp
 	#urxvtc  -name ncmpcpp -e ncmpcpp
-
-# Media player
-
-# XF86AudioPlay exec cmus-remote -u
-# XF86AudioPause exec
-# XF86AudioNext exec cmus-remote -n
-# XF86AudioPrev exec cmus-remote -r
-
 super + alt + 9
 	mpc --host=127.0.0.1 --port=6601 toggle
-
 super + alt + 0
 	mpc --host=127.0.0.1 --port=6601 next
-
 super + alt + 8
 	mpc --host=127.0.0.1 --port=6601 prev
 
 # alsa controls
-
 super + v
   amixer set Master 5%-
-
 super + shift + v
   amixer set Master 5%+
-
 XF86AudioMute 
   amixer set Master toggle
 
 # Touchpad controls
-
 XF86TouchpadToggle  
 	$HOME/scripts/toggletouchpad.sh
 
 # Sreen brightness controls
-
 XF86MonBrightnessUp  
 	xbacklight -inc 5 # increase screen brightness
 XF86MonBrightnessDown  
 	xbacklight -dec 5 # decrease screen brightness
-
 super + alt + 2  
 	xbacklight -inc 5 # increase screen brightness
 super + alt + 1
 	xbacklight -dec 5 # decrease screen brightness
-# wm independent hotkeys----------------------------
 
 # terminal emulator
 super + t
     alacritty
-	#urxvtc
 
-# program launcher
+# rofi
 super + d
     rofi -show drun -theme minimal
-
-# emojies
+# emojis
 super + shift + d
     rofi -show emoji -modi emoji
 
@@ -127,41 +94,23 @@ super + alt + Escape
 	bspc quit
 
 # close and kill
-super + {_,shift + }q
-	bspc node -{c,k}
+super + q
+	bspc node -c
 
 # alternate between the tiled and monocle layout
 super + m
 	bspc desktop -l next
 
-# if the current node is automatic, send it to the last manual, otherwise pull the last leaf
-# super + y
-	# bspc query -N -n focused.automatic && bspc node -n last.!automatic || bspc node last.leaf -n focused
-
-# swap the current node and the biggest node
-# super + g
-# 	bspc node -s biggest
-
-
-# state/flags----------------------------
-
+# state----------------------------
 # set the window state
 super + shift + f
-	bspc node -t {tiled,fullscreen}
-
-super + f 
-#	bspc node -t {floating,tiled}
-  bspc node focused.tiled -t floating || bspc node focused.floating -t tiled
-
-# set the node flags
-# super + ctrl + {x,y,z}
-# 	bspc node -g {locked,sticky,private}
+	bspc node -t {fullscreen, tiled}
+super + shift + t
+    bspc node -t {floating,tiled}
 
 # focus/swap----------------------------
-
 super + {_,shift + }{h,j,k,l}
     bspc node -{f,s} {west,south,north,east}
-
 
 # focus the next/previous node in the current desktop
 super + c
@@ -176,35 +125,3 @@ super + {o,i}
 # focus or send to the given desktop
 super + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} '^{1-9,10}'
-
-# presedlect----------------------------
-
-# preselect the direction
-super + ctrl + {h,j,k,l}
-	bspc node -p {west,south,north,east}
-
-# preselect the ratio
-super + ctrl + {1-9}
-	bspc node -o 0.{1-9}
-
-# cancel the preselection for the focused node
-super + ctrl + space
-	bspc node -p cancel
-
-# cancel the preselection for the focused desktop
-# super + ctrl + shift + space
-# 	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
-
-# move/resize----------------------------
-
-# expand a window by moving one of its side outward
-super + alt + {h,j,k,l}
-	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
-
-# contract a window by moving one of its side inward
-super + alt + shift + {h,j,k,l}
-	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
-
-# move a floating window
-super + {Left,Down,Up,Right}
-	bspc node -v {-20 0,0 20,0 -20,20 0}

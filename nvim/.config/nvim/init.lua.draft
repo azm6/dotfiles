@@ -1,0 +1,22 @@
+-- tabs
+vim.bo.shiftwidth = 4
+vim.bo.softtabstop = 4
+vim.bo.smartindent = true
+vim.bo.expandtab = true
+vim.bo.autoindent = true
+
+-- keybindings
+-- keymap({ mode }, { keymap }, { mapped to }, { option })
+vim.gmapleader = '<20>'
+local keymap = vim.api.nvim_set_keymap 
+local opts = { noremap = true }
+
+    -- window movment
+keymap('n', '<leader> j', ':wincmd j', opts)
+keymap('n', '<leader> h', ':wincmd h', opts)
+keymap('n', '<leader> k', ':wincmd k', opts)
+keymap('n', '<leader> l', ':wincmd l', opts)
+
+    -- source the config files
+keymap('n', '<leader> sv', ':source $MYVIMRC <bar> :doautocmd BufRead<CR>', opts)
+

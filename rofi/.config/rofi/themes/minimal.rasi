@@ -12,15 +12,15 @@ window {
 }
 
 * {
-  bg: #151515;
-  bg-alt: #414141;
+  bg: #000000;
+  bg-alt: #202020;
 
   fg: #ffffff;
   fg-alt: #555555;
 
   background-color: @bg;
   
-  border: 0;
+  border: 1;
   margin: 0;
   padding: 0;
   spacing: 0;

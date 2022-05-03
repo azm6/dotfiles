@@ -14,14 +14,13 @@ mpd_port = "6601"
 # Display ..
 song_list_format = " $0%n $1• $8%t $R$0%a "
 
-song_columns_list_format = "(3)[]{} (30)[16]{a|f} (60)[16]{t|f}  (7f)[16]{l}"
-
-song_status_format = "$0%a - $0%t"
+#song_columns_list_format = "(3)[]{} (30)[16]{a|f} (60)[16]{t|f}  (7f)[16]{l}"
+song_columns_list_format = "(5)[]{} (30)[blue]{a} (55)[magenta]{t|f} (5f)[206]{l} (5)[]{}"
 playlist_display_mode = "columns" (classic/columns)
 
 # Now Playing ..
-now_playing_prefix = "$2▶▶▶"
-now_playing_suffix = "$8$/b"
+now_playing_prefix = "  $b$7🎵$6🎵$9🎵"
+now_playing_suffix = "$/b$9"
 
 # Playlist ..
 browser_playlist_prefix = "$2 ♥ $0 "
@@ -31,20 +30,21 @@ playlist_disable_highlight_delay = "1"
 message_delay_time= "1"
 
 # Progress Bar ..
-progressbar_elapsed_color = 11
-# progressbar_color = 11 
-
-progressbar_look = "━━─"
-#progressbar_look = "▄▄▄"
+progressbar_elapsed_color = 7
+progressbar_color = "black"
+progressbar_look = "▃▃▃"
 
 # Colors ..
 colors_enabled = "yes"
 empty_tag_color = "red"
-statusbar_color = "red"
+statusbar_color = "white"
 state_line_color = "red"
 state_flags_color = "yellow"
-main_window_color = 16
+main_window_color = default
 header_window_color = 16
+
+color1 = "white"
+color2 = "blue"
 
 # Misc ..   
 display_bitrate = "yes"
@@ -61,8 +61,10 @@ ask_before_clearing_playlists = "yes"
 discard_colors_if_item_is_selected = "yes"
 display_volume_level = yes
 empty_tag_marker="Unknown" 
+follow_now_playing_lyrics = "yes"
+locked_screen_width_part = "60"
 
-user_interface="alternative"
+user_interface="classic"
 alternative_header_first_line_format ="{$3%a} - {%t}"
 alternative_header_second_line_format =""
 alternative_ui_separator_color ="red"

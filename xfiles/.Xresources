@@ -25,8 +25,8 @@ URxvt.keysym.C-minus:   font-size:decrease
 URxvt.keysym.C-equal:  font-size:reset
 
 !XTERM
-XTerm*faceName:  Luxi Mono
-XTerm*faceSize: 16
+XTerm.vt100.faceName: Noto Sans Mono:style=Regular:antialias=true
+XTerm*faceSize: 13
 XTerm*saveLines: 16384
 XTerm*loginShell: true
 XTerm*background: #000000

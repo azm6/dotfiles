@@ -24,6 +24,10 @@ Plug 'sheerun/vim-polyglot'
 Plug 'mattn/emmet-vim'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'sebastianmarkow/deoplete-rust'
+
+Plug 'prettier/vim-prettier', {
+  \ 'do': 'yarn install',
+  \ 'for': ['javascript', 'css','rust', 'json', 'html'] }
     
 call plug#end()
 "}}}
@@ -31,14 +35,10 @@ call plug#end()
 " deoplete {{{
 
 let g:deoplete#enable_at_startup = 1
-"disable the popup doc window after chosing a suggetion
-set completeopt-=preview
 
 " deoplete-rust
-let g:deoplete#sources#rust#racer_binary=$HOME.'/.cargo/bin/racer'
-let g:deoplete#sources#rust#rust_source_path=$HOME.'/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src'
-"autocmd CompleteDone * silent! pclose!
-
+let g:deoplete#sources#rust#racer_binary='$HOME/.cargo/bin/racer'
+let g:deoplete#sources#rust#rust_source_path='$HOME/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/'
 "}}}
 
 "Ui {{{
@@ -139,7 +139,7 @@ set wildignore+=**/node_modules/**
 set hidden
 " }}}
 
-" mappings {{{
+"Mapping {{{
 let mapleader = " "
 
 noremap <leader>gd :call LanguageClient#textDocument_definition({'gotoCmd': 'split'})<CR>
@@ -182,16 +182,11 @@ inoremap ' ''<left>
 inoremap ( ()<left>
 inoremap [ []<left>
 inoremap { {}<left>
-
 inoremap {<CR> {<CR>}<ESC>O
 inoremap {;<CR> {<CR>};<ESC>O
 
 map <F4> :NERDTreeToggle<CR>
-
-" rust autoformat
-nnoremap <leader>p :!rustfmt %<CR>
-
-" }}}
+"}}}
 
 " Section Folding {{{
 set foldenable
