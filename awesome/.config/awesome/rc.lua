@@ -102,12 +102,25 @@ awful.screen.connect_for_each_screen(function(s)
     }
 
     -- Create a custom bar textbox widget
-    s.mybarbox = wibox.widget.textbox()
+    s.mysysinfobarbox = wibox.widget.textbox()
     -- Spawn bar info
-    local bar_path = gears.filesystem.get_configuration_dir() .. "bar/target/release/bar"
+    local bar_path = gears.filesystem.get_configuration_dir() .. "bar/target/release/bar -v -b -c"
     awful.spawn.with_line_callback(bar_path, {
         stdout = function(line)
-            s.mybarbox.markup = line
+            s.mysysinfobarbox.markup = line
+        end,
+        stderr = function(line)
+            naughty.notify { text = "ERR: "..line }
+        end
+    })
+
+    -- Create a custom bar for music player info
+    s.mymusicbarbox = wibox.widget.textbox()
+    -- Spawn bar info
+    local bar_path = gears.filesystem.get_configuration_dir() .. "bar/target/release/bar -m"
+    awful.spawn.with_line_callback(bar_path, {
+        stdout = function(line)
+            s.mymusicbarbox.markup = line
         end,
         stderr = function(line)
             naughty.notify { text = "ERR: "..line }
@@ -116,11 +129,6 @@ awful.screen.connect_for_each_screen(function(s)
 
     -- Create a promptbox for each screen
     s.mypromptbox = awful.widget.prompt()
-
-    -- Create a tasklist widget
-    s.mytasklist = awful.widget.tasklist {
-        screen  = s,
-    }
 
     -- Create the wibox
     s.mywibox = awful.wibar({ position = "top", screen = s })
@@ -133,10 +141,10 @@ awful.screen.connect_for_each_screen(function(s)
             s.mytaglist,
             s.mypromptbox
         },
-        s.mytasklist, -- Middle widget
+        s.mymusicbarbox,
         { -- Right widgets
             layout = wibox.layout.fixed.horizontal,
-            s.mybarbox,
+            s.mysysinfobarbox,
             mytextclock,
             wibox.widget.systray(),
         },

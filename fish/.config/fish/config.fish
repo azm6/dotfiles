@@ -1,5 +1,7 @@
 export PATH="$HOME/.cargo/bin:$HOME/.local/bin:$PATH"
 export EDITOR=/usr/bin/nvim
+export MPD_HOST=127.0.0.1
+export MPD_PORT=6601
 # source "$HOME/.cargo/env"
 
 if status is-interactive
