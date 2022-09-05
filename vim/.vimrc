@@ -11,19 +11,16 @@ set nu rnu
 set laststatus=2
 syntax enable
 
-colorscheme solarized
+colorscheme slate
 set cursorline
 
 set background=dark
 set t_Co=256
 
-let g:lightline = { 'colorscheme': 'solarized', }
-
 call plug#begin('~/.vim/plugged')
 
 Plug 'itchyny/lightline.vim'
 Plug 'scrooloose/nerdtree'
-Plug 'mattn/emmet-vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'gorodinskiy/vim-coloresque'
 

@@ -1,0 +1,42 @@
+[Added Associations]
+x-scheme-handler/http=userapp-Firefox-WHK9O0.desktop;
+x-scheme-handler/https=userapp-Firefox-WHK9O0.desktop;
+text/html=userapp-Firefox-WHK9O0.desktop;
+text/plain=geany.desktop;
+application/x-java-archive=userapp-java -jar-DQKVP0.desktop;
+
+[Removed Associations]
+
+[Default Applications]
+image/bmp=sxiv.desktop;
+image/gif=sxiv.desktop;
+image/jpeg=sxiv.desktop;      
+image/jpg=sxiv.desktop;     
+image/png=sxiv.desktop;
+image/x-webp=sxiv.desktop;
+image/x-xbitmap=sxiv.desktop;
+
+text/plain=featherpad.desktop;nvim.desktop;
+inode/directory=pcmanfm.desktop;
+
+application/epub+zip=org.pwmt.zathura.desktop
+application/pdf=org.pwmt.zathura-pdf-mupdf.desktop
+
+x-scheme-handler/http=userapp-Firefox-WHK9O0.desktop
+x-scheme-handler/https=userapp-Firefox-WHK9O0.desktop
+x-scheme-handler/ftp=userapp-Firefox-WHK9O0.desktop
+x-scheme-handler/chrome=userapp-Firefox-WHK9O0.desktop
+text/html=userapp-Firefox-WHK9O0.desktop
+application/x-extension-htm=userapp-Firefox-WHK9O0.desktop
+application/x-extension-html=userapp-Firefox-WHK9O0.desktop
+application/x-extension-shtml=userapp-Firefox-WHK9O0.desktop
+application/xhtml+xml=userapp-Firefox-WHK9O0.desktop
+application/x-extension-xhtml=userapp-Firefox-WHK9O0.desktop
+application/x-extension-xht=userapp-Firefox-WHK9O0.desktop
+x-scheme-handler/about=firefox.desktop
+x-scheme-handler/unknown=firefox.desktop
+text/plain=geany.desktop
+application/x-java-archive=userapp-java -jar-DQKVP0.desktop
+x-scheme-handler/eclipse+command x-scheme-handler/eclipse+mpc=_usr_lib_eclipse_.desktop
+
+

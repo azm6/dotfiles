@@ -1,20 +1,12 @@
--- If LuaRocks is installed, make sure that packages installed through it are
--- found (e.g. lgi). If LuaRocks is not installed, do nothing.
 pcall(require, "luarocks.loader")
 
--- Standard awesome library
 local gears = require("gears")
 local awful = require("awful")
 require("awful.autofocus")
--- Widget and layout library
 local wibox = require("wibox")
--- Theme handling library
 local beautiful = require("beautiful")
--- Notification library
 local naughty = require("naughty")
 local hotkeys_popup = require("awful.hotkeys_popup")
--- Enable hotkeys help widget for VIM and other apps
--- when client with a matching name is opened:
 require("awful.hotkeys_popup.keys")
 
 -- {{{ Error handling
@@ -43,8 +35,7 @@ end
 -- }}}
 
 -- {{{ Variable definitions
--- Themes define colours, icons, font.
---beautiful.init(gears.filesystem.get_themes_dir() .. "default/theme.lua")
+
 beautiful.init(gears.filesystem.get_configuration_dir() .. "mytheme.lua")
 
 -- This is used later as the default terminal and editor to run.
@@ -52,11 +43,6 @@ terminal = "alacritty"
 editor = os.getenv("EDITOR") or "nvim"
 editor_cmd = terminal .. " -e " .. editor
 
--- Default modkey.
--- Usually, Mod4 is the key with a logo between Control and Alt.
--- If you do not like this or do not have such a key,
--- I suggest you to remap Mod4 to another key using xmodmap or other tools.
--- However, you can use another modifier like Mod1, but it may interact with others.
 modkey = "Mod4"
 
 -- Table of layouts to cover with awful.layout.inc, order matters.
@@ -101,32 +87,6 @@ awful.screen.connect_for_each_screen(function(s)
         buttons = taglist_buttons
     }
 
-    -- Create a custom bar textbox widget
-    s.mysysinfobarbox = wibox.widget.textbox()
-    -- Spawn bar info
-    local bar_path = gears.filesystem.get_configuration_dir() .. "bar/target/release/bar -v -b -c"
-    awful.spawn.with_line_callback(bar_path, {
-        stdout = function(line)
-            s.mysysinfobarbox.markup = line
-        end,
-        stderr = function(line)
-            naughty.notify { text = "ERR: "..line }
-        end
-    })
-
-    -- Create a custom bar for music player info
-    s.mymusicbarbox = wibox.widget.textbox()
-    -- Spawn bar info
-    local bar_path = gears.filesystem.get_configuration_dir() .. "bar/target/release/bar -m"
-    awful.spawn.with_line_callback(bar_path, {
-        stdout = function(line)
-            s.mymusicbarbox.markup = line
-        end,
-        stderr = function(line)
-            naughty.notify { text = "ERR: "..line }
-        end
-    })
-
     -- Create a promptbox for each screen
     s.mypromptbox = awful.widget.prompt()
 
@@ -139,12 +99,10 @@ awful.screen.connect_for_each_screen(function(s)
         { -- Left widgets
             layout = wibox.layout.fixed.horizontal,
             s.mytaglist,
-            s.mypromptbox
+            s.mypromptbox,
         },
-        s.mymusicbarbox,
         { -- Right widgets
             layout = wibox.layout.fixed.horizontal,
-            s.mysysinfobarbox,
             mytextclock,
             wibox.widget.systray(),
         },

@@ -2,10 +2,10 @@
 
 # Books directory
 
-BOOKS_DIR=~/Desktop/Books
+BOOKS_DIR=$HOME/Desktop/Books
 
 # Save find result to F_ARRAY
-readarray -t F_ARRAY <<< "$(find Desktop/Books -type f -regex '.*\(pdf\|djvu\|epub\)$')"
+readarray -t F_ARRAY <<< "$(find $HOME/Desktop/Books -type f -regex '.*\(pdf\|djvu\|epub\)$' | sort -k6M)"
 
 # Associative array for storing books
 # key => book name

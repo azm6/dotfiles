@@ -150,6 +150,8 @@ odf.app_list	= [
 	{ command = "libreoffice", fork = true, silent = true } ]
 pdf.app_list	= [
 	{ command = "zathura", fork = true, silent = true } ]
+epub.app_list	= [
+	{ command = "zathura", fork = true, silent = true } ]
 
 tex.app_list	= [
 	{ command = "micro" },

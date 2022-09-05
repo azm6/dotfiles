@@ -72,7 +72,10 @@ super + t
     alacritty
 
 # rofi
-super + d
+super + ctrl + d
+    rofi -show run
+# rofi
+super +  d
     rofi -show drun -theme minimal
 # emojis
 super + shift + d
@@ -90,7 +93,7 @@ super + r
 # bspwm hotkeys----------------------------
 
 # quit bspwm normally
-super + alt + Escape
+super + shift + Escape
 	bspc quit
 
 # close and kill

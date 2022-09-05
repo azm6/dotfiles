@@ -5,7 +5,6 @@ call plug#begin('~/.vim/plugged')
 " Enhancements
 Plug 'joshdick/onedark.vim'
 Plug 'itchyny/lightline.vim'
-Plug 'ahmedkhalf/project.nvim'
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
 Plug 'gorodinskiy/vim-coloresque'
@@ -16,29 +15,7 @@ Plug 'machakann/vim-highlightedyank'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
-" Language Support
-Plug 'autozimu/LanguageClient-neovim', {'branch': 'next', 'do': 'bash install.sh',}
-Plug 'sheerun/vim-polyglot'
-
-" Auto-complete
-Plug 'mattn/emmet-vim'
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'sebastianmarkow/deoplete-rust'
-    
 call plug#end()
-"}}}
-
-" deoplete {{{
-
-let g:deoplete#enable_at_startup = 1
-"disable the popup doc window after chosing a suggetion
-set completeopt-=preview
-
-" deoplete-rust
-let g:deoplete#sources#rust#racer_binary=$HOME.'/.cargo/bin/racer'
-let g:deoplete#sources#rust#rust_source_path=$HOME.'/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src'
-"autocmd CompleteDone * silent! pclose!
-
 "}}}
 
 "Ui {{{
@@ -65,62 +42,8 @@ let g:highlightedyank_highlight_duration = 300
 
 " }}}
 
-" LC neovim {{{
-" Required for operations modifying multiple buffers like rename.
-set hidden
-
-let g:LanguageClient_serverCommands = {
-    \ 'rust': ['~/.cargo/bin/rustup', 'run', 'stable', 'rls'],
-    \ 'javascript': ['/usr/local/bin/javascript-typescript-stdio'],
-    \ 'javascript.jsx': ['tcp://127.0.0.1:2089'],
-    \ 'python': ['/usr/local/bin/pyls'],
-    \ }
-
-" note that if you are using Plug mapping you should not use `noremap` mappings.
-nmap <F5> <Plug>(lcn-menu)
-" }}}
-
 " LightLine {{{
 let g:lightline = {'colorscheme': 'onedark',}
-"}}}
-
-" Project config {{{
-lua << EOF
-  require("project_nvim").setup {
-      -- Manual mode doesn't automatically change your root directory, so you have
-      -- the option to manually do so using `:ProjectRoot` command.
-      manual_mode = false,
-
-      -- Methods of detecting the root directory. **"lsp"** uses the native neovim
-      -- lsp, while **"pattern"** uses vim-rooter like glob pattern matching. Here
-      -- order matters: if one is not detected, the other is used as fallback. You
-      -- can also delete or rearangne the detection methods.
-      detection_methods = { "lsp", "pattern" },
-
-      -- All the patterns used to detect root dir, when **"pattern"** is in
-      -- detection_methods
-      patterns = { ".git","cargo.toml", "_darcs", ".hg", ".bzr", ".svn", "Makefile", "package.json" },
-
-      -- Table of lsp clients to ignore by name
-      -- eg: { "efm", ... }
-      ignore_lsp = {},
-
-      -- Don't calculate root dir on specific directories
-      -- Ex: { "~/.cargo/*", ... }
-      exclude_dirs = {},
-
-      -- Show hidden files in telescope
-      show_hidden = false,
-
-      -- When set to false, you will get a message when project.nvim changes your
-      -- directory.
-      silent_chdir = false,
-
-      -- Path where project.nvim will store the project history for use in
-      -- telescope
-      datapath = vim.fn.stdpath("data"),
-  }
-EOF
 "}}}
 
 " Tabs n Spaces {{{
@@ -141,8 +64,6 @@ set hidden
 
 " mappings {{{
 let mapleader = " "
-
-noremap <leader>gd :call LanguageClient#textDocument_definition({'gotoCmd': 'split'})<CR>
 
 noremap <leader>r :!cargo r --quiet<CR>
 
@@ -188,10 +109,6 @@ inoremap {;<CR> {<CR>};<ESC>O
 
 map <F4> :NERDTreeToggle<CR>
 
-" rust autoformat
-nnoremap <leader>p :!rustfmt %<CR>
-
-" }}}
 
 " Section Folding {{{
 set foldenable
