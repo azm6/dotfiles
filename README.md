@@ -12,9 +12,13 @@
 ## Using gnu stow for quick setup
 
 `$ git clone ~/dotfiles https://github.com/GwakaMolie/dotfiles.git`
+
 `$ rm fancontrole_settings screenshot.png README.md`
+
 `$ rm ~/.xinitrc ~/.Xresources`
+
 `$ stow *`
 
 ### Note: 
+
 Gnu Stow WON'T override preexisting files.
