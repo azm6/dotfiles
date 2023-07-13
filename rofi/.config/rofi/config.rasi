@@ -1,6 +1,6 @@
 configuration {
     modi: "window,run,ssh,drun";
-	font: "Hack 13";
+	font: "Fira Code 13";
 /*	location: 0;*/
 /*	yoffset: 0;*/
 /*	xoffset: 0;*/
@@ -71,4 +71,4 @@ configuration {
       sorting-method:    "name";
   }
 }
-@theme "minimal"
+@theme "Arc-Dark.rasi"

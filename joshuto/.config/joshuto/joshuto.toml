@@ -9,7 +9,7 @@ column_ratio = [2, 2]
 scroll_offset = 6
 show_borders = true
 show_hidden = false
-show_icons = true
+show_icons = false
 show_preview = true
 tilde_in_titlebar = true
 

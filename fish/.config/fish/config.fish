@@ -1,8 +1,9 @@
-export PATH="$HOME/.cargo/bin:$HOME/.local/bin:/var/lib/flatpak/exports/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$HOME/.local/bin:/var/lib/flatpak/exports/bin:/usr/games:$PATH"
 
 export EDITOR=/usr/bin/nvim
 export MPD_HOST=127.0.0.1
 export MPD_PORT=6601
+set -x GPG_TTY (tty)
 # source "$HOME/.cargo/env"
 
 if status is-interactive
@@ -21,4 +22,3 @@ if status is-interactive
     set fish_cursor_visual block
 end
 
-starship init fish | source

@@ -1,5 +1,7 @@
 export ZSH="$HOME/.oh-my-zsh"
 
+export PATH="$HOME/.cargo/bin:$HOME/.local/bin:/var/lib/flatpak/exports/bin:/usr/games:$PATH"
+
 ZSH_THEME="theunraveler"
 
 plugins=(

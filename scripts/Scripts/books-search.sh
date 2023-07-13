@@ -44,11 +44,11 @@ gen_list(){
 
 main() {
   get_books
-  book=$( (gen_list) | rofi -theme-str 'window {width: 95%; height: 70%;}' -dmenu -i -matching normal -no-custom -location 0 -p "Book >> " )
+  book=$( (gen_list) | rofi -theme minimal -theme-str 'window {width: 95%; height: 70%;}' -dmenu -i -matching normal -no-custom -location 0 -p "Book >> " )
 
   if [ -n "$book" ]; then
-    #xdg-open "${BOOKS[$book]}"
-    zathura "${BOOKS[$book]}"
+    xdg-open "${BOOKS[$book]}"
+    # zathura "${BOOKS[$book]}"
   fi
 }
 

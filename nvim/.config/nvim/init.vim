@@ -4,6 +4,8 @@ call plug#begin('~/.vim/plugged')
 
 " Enhancements
 Plug 'joshdick/onedark.vim'
+Plug 'sbdchd/neoformat'
+Plug 'lervag/vimtex'
 Plug 'itchyny/lightline.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
@@ -16,6 +18,20 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
 call plug#end()
+"}}}
+
+" Neoformat {{{
+
+let g:latexindent_opt="-m --yaml='modifyLineBreaks:textWrapOptions:columns:110\;'"
+
+" Enable alignment
+let g:neoformat_basic_format_align = 1
+
+" Enable tab to spaces conversion
+let g:neoformat_basic_format_retab = 1
+
+" Enable trimmming of trailing whitespace
+let g:neoformat_basic_format_trim = 1
 "}}}
 
 "Ui {{{
@@ -32,6 +48,7 @@ set scrolloff=8
 set nowrap
 set incsearch
 set t_Co=256
+set mouse=a
 
 set background=dark
 colorscheme onedark
@@ -40,6 +57,8 @@ set termguicolors
 
 let g:highlightedyank_highlight_duration = 300
 
+"spellchecker {{{
+" set spell
 " }}}
 
 " LightLine {{{
@@ -66,8 +85,11 @@ set hidden
 let mapleader = " "
 
 noremap <leader>r :!cargo r --quiet<CR>
+" Neoformat
+nnoremap <leader>z :Neoformat<CR>
 
 noremap <leader>r :!cargo r --quiet<CR>
+
 noremap <leader>; A;<Esc>
 
 ""new line
@@ -82,6 +104,14 @@ nnoremap <leader>h :wincmd h<CR>
 nnoremap <leader>j :wincmd j<CR>
 nnoremap <leader>k :wincmd k<CR>
 nnoremap <leader>l :wincmd l<CR>
+
+nnoremap <leader>p "+p
+vnoremap <leader>p "+p
+nnoremap <leader>P "+P
+vnoremap <leader>P "+P
+nnoremap <leader>y "+y
+vnoremap <leader>y "+y
+nnoremap <leader>Y "+y$
 
 "tab navigation  
 nnoremap <leader>1 1gt

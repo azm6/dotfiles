@@ -66,17 +66,17 @@ scrolling:
 # Font configuration
 font:
   normal:
-    family: FiraCode Nerd Font Mono
+    family: Fira Code
     style: Regular
 
   # Bold font face
   bold:
-    family: FiraCode Nerd Font Mono
+    family: Fira Code
     style: Bold
 
   # Italic font face
   italic:
-    family: FiraCode Nerd Font Mono
+    family: Fira Code
     style: Light
 
   # Point size

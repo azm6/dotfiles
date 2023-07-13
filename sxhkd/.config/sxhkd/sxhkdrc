@@ -53,6 +53,7 @@ super + shift + v
 XF86AudioMute 
   amixer set Master toggle
 
+
 # Touchpad controls
 XF86TouchpadToggle  
 	$HOME/scripts/toggletouchpad.sh
@@ -72,14 +73,11 @@ super + t
     alacritty
 
 # rofi
-super + ctrl + d
-    rofi -show run
-# rofi
 super +  d
     rofi -show drun -theme minimal
-# emojis
-super + shift + d
-    rofi -show emoji -modi emoji
+
+super +  shift + e
+    rofi -modi emoji -show emoji -theme minimal
 
 # Restart bspwm
 super + shift + r
@@ -88,7 +86,6 @@ super + shift + r
 # make sxhkd reload its configuration files:
 super + r
 	pkill -USR1 -x sxhkd
-
 
 # bspwm hotkeys----------------------------
 
