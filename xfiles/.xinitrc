@@ -12,3 +12,4 @@ export SXHKD_SHELL='/usr/bin/sh'
 sxhkd &
 exec bspwm
 wmname compiz
+

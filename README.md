@@ -13,7 +13,7 @@
 
 `$ git clone ~/dotfiles https://github.com/GwakaMolie/dotfiles.git`
 
-`$ rm fancontrole_settings screenshot.png README.md`
+`$ rm fancontrole_settings screenshot.png mimeapps.list firefoxScrollbar.md README.md`
 
 `$ rm ~/.xinitrc ~/.Xresources`
 
