@@ -1,8 +1,6 @@
 " Plugin {{{
 call plug#begin('~/.vim/plugged')
 
-
-" Enhancements
 Plug 'joshdick/onedark.vim'
 Plug 'sbdchd/neoformat'
 Plug 'lervag/vimtex'
@@ -12,26 +10,10 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'gorodinskiy/vim-coloresque'
 Plug 'tpope/vim-surround'
 Plug 'machakann/vim-highlightedyank'
-
-" Fuzzy Finder
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
 call plug#end()
-"}}}
-
-" Neoformat {{{
-
-let g:latexindent_opt="-m --yaml='modifyLineBreaks:textWrapOptions:columns:110\;'"
-
-" Enable alignment
-let g:neoformat_basic_format_align = 1
-
-" Enable tab to spaces conversion
-let g:neoformat_basic_format_retab = 1
-
-" Enable trimmming of trailing whitespace
-let g:neoformat_basic_format_trim = 1
 "}}}
 
 "Ui {{{
@@ -56,6 +38,7 @@ colorscheme onedark
 set termguicolors
 
 let g:highlightedyank_highlight_duration = 300
+" }}}
 
 "spellchecker {{{
 " set spell
@@ -80,6 +63,21 @@ set wildmenu
 set wildignore+=**/node_modules/** 
 set hidden
 " }}}
+
+" Neoformat {{{
+
+let g:latexindent_opt="-m --yaml='modifyLineBreaks:textWrapOptions:columns:110\;'"
+
+" Enable alignment
+let g:neoformat_basic_format_align = 1
+
+" Enable tab to spaces conversion
+let g:neoformat_basic_format_retab = 1
+
+" Enable trimmming of trailing whitespace
+let g:neoformat_basic_format_trim = 1
+
+"}}}
 
 " mappings {{{
 let mapleader = " "
@@ -140,18 +138,19 @@ inoremap {;<CR> {<CR>};<ESC>O
 map <F4> :NERDTreeToggle<CR>
 
 
+
+" config reload {{{
+
+nnoremap <leader>ev :vsp $MYVIMRC<CR>
+nnoremap <leader>sv :source $MYVIMRC <bar> :doautocmd BufRead<CR>
+
+" }}}
+"
 " Section Folding {{{
 set foldenable
 set foldlevelstart=10
 set foldnestmax=10
 set foldmethod=syntax
-" }}}
-
-" VIMRC {{{
-
-nnoremap <leader>ev :vsp $MYVIMRC<CR>
-nnoremap <leader>sv :source $MYVIMRC <bar> :doautocmd BufRead<CR>
-
 " }}}
 
 " vim:foldmethod=marker:foldlevel=0
